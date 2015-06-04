@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph __version="3.5.0" author="ltran" created="Tue Dec 30 08:55:46 PST 2014" description="Xml&lt;ZBAPI_WCC_GET_CONTRACT_STATUS1&gt; To XML" guiVersion="3.4.4.P" id="1419980218886" licenseCode="Unlicensed" licenseType="Unknown" modified="Tue Dec 30 08:55:46 PST 2014" modifiedBy="ltran" name="Xml_ZBAPI_WCC_GET_CONTRACT_STATUS1__To_XML_1Xml_ZBAPI_WCC_GET_CONTRACT_STATUS1__To_XML_2" revision="1.0" showComponentDetails="false">
+<Global>
+<Metadata __index="4" __referenceCounter="1" __sourcePath="{}/serviceContractSearchResponse/contract" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="ef33be05-d631-446a-8cb9-48e41bc08bf2" _parent_id="__parent_id" _type="Output" id="614a09b6-29bf-403b-8b53-ca2e3ba9627b">
+<Record fieldDelimiter="," name="contract" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="4" __sourcePath="{}/serviceContractSearchResponse/contract/contractNumber" containerType="SINGLE" label="contractNumber" name="contractNumber" type="string"/>
+<Field __index="5" __sourcePath="{}/serviceContractSearchResponse/contract/tsn" containerType="SINGLE" label="tsn" name="tsn" type="string"/>
+<Field __index="6" __sourcePath="{}/serviceContractSearchResponse/contract/startDate" containerType="SINGLE" label="startDate" name="startDate" type="string"/>
+<Field __index="7" __sourcePath="{}/serviceContractSearchResponse/contract/endDate" containerType="SINGLE" label="endDate" name="endDate" type="string"/>
+<Field __index="8" __sourcePath="{}/serviceContractSearchResponse/contract/status" containerType="SINGLE" label="status" name="status" type="string"/>
+<Field __index="9" __sourcePath="{}/serviceContractSearchResponse/contract/activationDate" containerType="SINGLE" label="activationDate" name="activationDate" type="string"/>
+<Field __index="10" __sourcePath="{}/serviceContractSearchResponse/contract/accountStatus" containerType="SINGLE" label="accountStatus" name="accountStatus" type="string"/>
+<Field __index="11" __sourcePath="{}/serviceContractSearchResponse/contract/appOrder" containerType="SINGLE" label="appOrder" name="appOrder" type="string"/>
+<Field __index="12" __sourcePath="{}/serviceContractSearchResponse/contract/connectionType" containerType="SINGLE" label="connectionType" name="connectionType" type="string"/>
+<Field __index="13" __sourcePath="{}/serviceContractSearchResponse/contract/contractDate" containerType="SINGLE" label="contractDate" name="contractDate" type="string"/>
+<Field __index="14" __sourcePath="{}/serviceContractSearchResponse/contract/isSilverStreak" containerType="SINGLE" label="isSilverStreak" name="isSilverStreak" type="string"/>
+<Field __index="15" __sourcePath="{}/serviceContractSearchResponse/contract/lineItem" containerType="SINGLE" label="lineItem" name="lineItem" type="string"/>
+<Field __index="16" __sourcePath="{}/serviceContractSearchResponse/contract/material" containerType="SINGLE" label="material" name="material" type="string"/>
+<Field __index="17" __sourcePath="{}/serviceContractSearchResponse/contract/mrv" containerType="SINGLE" label="mrv" name="mrv" type="string"/>
+<Field __index="18" __sourcePath="{}/serviceContractSearchResponse/contract/msd" containerType="SINGLE" label="msd" name="msd" type="string"/>
+<Field __index="19" __sourcePath="{}/serviceContractSearchResponse/contract/msdDescription" containerType="SINGLE" label="msdDescription" name="msdDescription" type="string"/>
+<Field __index="20" __sourcePath="{}/serviceContractSearchResponse/contract/partnerOrderNumber" containerType="SINGLE" label="partnerOrderNumber" name="partnerOrderNumber" type="string"/>
+<Field __index="21" __sourcePath="{}/serviceContractSearchResponse/contract/pgdUntil" containerType="SINGLE" label="pgdUntil" name="pgdUntil" type="string"/>
+<Field __index="22" __sourcePath="{}/serviceContractSearchResponse/contract/promotion/promoCode" containerType="SINGLE" label="promoCode" name="promoCode" type="string"/>
+<Field __index="23" __sourcePath="{}/serviceContractSearchResponse/contract/promotion/usage" containerType="SINGLE" label="usage" name="usage" type="string"/>
+<Field __index="24" __sourcePath="{}/serviceContractSearchResponse/contract/promotion/start" containerType="SINGLE" label="start" name="start" type="string"/>
+<Field __index="25" __sourcePath="{}/serviceContractSearchResponse/contract/promotion/duration" containerType="SINGLE" label="duration" name="duration" type="string"/>
+<Field __index="26" __sourcePath="{}/serviceContractSearchResponse/contract/promotion/description" containerType="SINGLE" label="description" name="description" type="string"/>
+<Field __index="27" __sourcePath="{}/serviceContractSearchResponse/contract/promotion/isFreePromoApplied" containerType="SINGLE" label="isFreePromoApplied" name="isFreePromoApplied" type="string"/>
+<Field __index="28" __sourcePath="{}/serviceContractSearchResponse/contract/referrerEmail" containerType="SINGLE" label="referrerEmail" name="referrerEmail" type="string"/>
+<Field __index="29" __sourcePath="{}/serviceContractSearchResponse/contract/upgradeEligibilty" containerType="SINGLE" label="upgradeEligibilty" name="upgradeEligibilty" type="string"/>
+<Field __index="30" __sourcePath="{}/serviceContractSearchResponse/contract/amountOwed" containerType="SINGLE" label="amountOwed" name="amountOwed" type="string"/>
+<Field __index="31" __sourcePath="{}/serviceContractSearchResponse/contract/creditMemo" containerType="SINGLE" label="creditMemo" name="creditMemo" type="string"/>
+<Field __index="32" __sourcePath="{}/serviceContractSearchResponse/contract/lastCallDate" containerType="SINGLE" label="lastCallDate" name="lastCallDate" type="string"/>
+<Field __index="33" __sourcePath="{}/serviceContractSearchResponse/contract/billed" containerType="SINGLE" label="billed" name="billed" type="string"/>
+<Field __index="34" __sourcePath="{}/serviceContractSearchResponse/contract/settled" containerType="SINGLE" label="settled" name="settled" type="string"/>
+<Field __index="35" __sourcePath="{}/serviceContractSearchResponse/contract/billToCustomer/customerNumber" containerType="SINGLE" label="customerNumber" name="customerNumber" type="string"/>
+<Field __index="36" __sourcePath="{}/serviceContractSearchResponse/contract/soldToCustomer/customerNumber" containerType="SINGLE" label="customerNumber" name="customerNumber_1" type="string"/>
+<Field __index="37" __sourcePath="{}/serviceContractSearchResponse/contract/payerCustomer/customerNumber" containerType="SINGLE" label="customerNumber" name="customerNumber_2" type="string"/>
+<Field __index="38" __sourcePath="{}/serviceContractSearchResponse/contract/shipToCustomer/customerNumber" containerType="SINGLE" label="customerNumber" name="customerNumber_3" type="string"/>
+<Field __index="39" __sourcePath="{}/serviceContractSearchResponse/contract/creditCard/cardType" containerType="SINGLE" label="cardType" name="cardType" type="string"/>
+<Field __index="40" __sourcePath="{}/serviceContractSearchResponse/contract/creditCard/expirationDate" containerType="SINGLE" label="expirationDate" name="expirationDate" type="string"/>
+<Field __index="41" __sourcePath="{}/serviceContractSearchResponse/contract/creditCard/name" containerType="SINGLE" label="name" name="name" type="string"/>
+<Field __index="42" __sourcePath="{}/serviceContractSearchResponse/contract/creditCard/token" containerType="SINGLE" label="token" name="token" type="string"/>
+<Field __index="43" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/tsn" containerType="SINGLE" label="tsn" name="tsn_1" type="string"/>
+<Field __index="44" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/tcdName" containerType="SINGLE" label="tcdName" name="tcdName" type="string"/>
+<Field __index="45" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/status" containerType="SINGLE" label="status" name="status_1" type="string"/>
+<Field __index="46" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/skuItem" containerType="SINGLE" label="skuItem" name="skuItem" type="string"/>
+<Field __index="47" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/model" containerType="SINGLE" label="model" name="model" type="string"/>
+<Field __index="48" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/camNo" containerType="SINGLE" label="camNo" name="camNo" type="string"/>
+<Field __index="49" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/birthDate" containerType="SINGLE" label="birthDate" name="birthDate" type="string"/>
+<Field __index="50" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/teststatus" containerType="SINGLE" label="teststatus" name="teststatus" type="string"/>
+<Field __index="51" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/recorder" containerType="SINGLE" label="recorder" name="recorder" type="string"/>
+<Field __index="52" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/mfgid" containerType="SINGLE" label="mfgid" name="mfgid" type="string"/>
+<Field __index="53" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/hmoStatus" containerType="SINGLE" label="hmoStatus" name="hmoStatus" type="string"/>
+<Field __index="54" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/mrv" containerType="SINGLE" label="mrv" name="mrv_1" type="string"/>
+<Field __index="55" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/musicPhoto" containerType="SINGLE" label="musicPhoto" name="musicPhoto" type="string"/>
+<Field __index="56" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/cdsEnabled" containerType="SINGLE" label="cdsEnabled" name="cdsEnabled" type="string"/>
+<Field __index="57" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/boxType" containerType="SINGLE" label="boxType" name="boxType" type="string"/>
+<Field __index="58" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/mso" containerType="SINGLE" label="mso" name="mso" type="string"/>
+<Field __index="59" __sourcePath="{}/serviceContractSearchResponse/contract/serialNumberInfo/msoMessage" containerType="SINGLE" label="msoMessage" name="msoMessage" type="string"/>
+<Field __index="60" __sourcePath="{}/serviceContractSearchResponse/contract/service/sku" containerType="SINGLE" label="sku" name="sku" type="string"/>
+<Field __index="61" __sourcePath="{}/serviceContractSearchResponse/contract/service/name" containerType="SINGLE" label="name" name="name_1" type="string"/>
+<Field __index="62" __sourcePath="{}/serviceContractSearchResponse/contract/service/description" containerType="SINGLE" label="description" name="description_1" type="string"/>
+<Field __index="63" __sourcePath="{}/serviceContractSearchResponse/contract/service/price" containerType="SINGLE" label="price" name="price" type="string"/>
+<Field __index="64" __sourcePath="{}/serviceContractSearchResponse/contract/service/discountPrice" containerType="SINGLE" label="discountPrice" name="discountPrice" type="string"/>
+<Field __index="65" __sourcePath="{}/serviceContractSearchResponse/contract/service/chargePrice" containerType="SINGLE" label="chargePrice" name="chargePrice" type="string"/>
+<Field __index="66" __sourcePath="{}/serviceContractSearchResponse/contract/service/tax" containerType="SINGLE" label="tax" name="tax" type="string"/>
+<Field __index="67" __sourcePath="{}/serviceContractSearchResponse/contract/service/priceType" containerType="SINGLE" label="priceType" name="priceType" type="string"/>
+<Field __index="68" __sourcePath="{}/serviceContractSearchResponse/contract/service/optionType" containerType="SINGLE" label="optionType" name="optionType" type="string"/>
+<Field __index="69" __sourcePath="{}/serviceContractSearchResponse/contract/service/firstCallDate" containerType="SINGLE" label="firstCallDate" name="firstCallDate" type="string"/>
+<Field __index="70" __sourcePath="{}/serviceContractSearchResponse/contract/service/temporaryService" containerType="SINGLE" label="temporaryService" name="temporaryService" type="string"/>
+<Field __index="71" __sourcePath="{}/serviceContractSearchResponse/contract/service/enableDownloads" containerType="SINGLE" label="enableDownloads" name="enableDownloads" type="string"/>
+<Field __index="72" __sourcePath="{}/serviceContractSearchResponse/contract/service/enableTransfers" containerType="SINGLE" label="enableTransfers" name="enableTransfers" type="string"/>
+<Field __index="73" __sourcePath="{}/serviceContractSearchResponse/contract/service/kidzonePassword" containerType="SINGLE" label="kidzonePassword" name="kidzonePassword" type="string"/>
+<Field __index="74" __sourcePath="{}/serviceContractSearchResponse/contract/service/lastCallDate" containerType="SINGLE" label="lastCallDate" name="lastCallDate_1" type="string"/>
+<Field __index="75" __sourcePath="{}/serviceContractSearchResponse/contract/service/serviceState" containerType="SINGLE" label="serviceState" name="serviceState" type="string"/>
+<Field __index="76" __sourcePath="{}/serviceContractSearchResponse/contract/service/bsmServiceState" containerType="SINGLE" label="bsmServiceState" name="bsmServiceState" type="string"/>
+<Field __index="77" __sourcePath="{}/serviceContractSearchResponse/contract/service/sapServiceState" containerType="SINGLE" label="sapServiceState" name="sapServiceState" type="string"/>
+<Field __index="78" __sourcePath="{}/serviceContractSearchResponse/contract/service/serviceStateDesc" containerType="SINGLE" label="serviceStateDesc" name="serviceStateDesc" type="string"/>
+<Field __index="79" __sourcePath="{}/serviceContractSearchResponse/contract/service/musicPhoto" containerType="SINGLE" label="musicPhoto" name="musicPhoto_1" type="string"/>
+<Field __index="80" __sourcePath="{}/serviceContractSearchResponse/contract/service/broadband" containerType="SINGLE" label="broadband" name="broadband" type="string"/>
+<Field __index="81" __sourcePath="{}/serviceContractSearchResponse/contract/service/swVersion" containerType="SINGLE" label="swVersion" name="swVersion" type="string"/>
+<Field __index="82" __sourcePath="{}/serviceContractSearchResponse/contract/service/wirelessSignal" containerType="SINGLE" label="wirelessSignal" name="wirelessSignal" type="string"/>
+<Field __index="83" __sourcePath="{}/serviceContractSearchResponse/contract/service/serial" containerType="SINGLE" label="serial" name="serial" type="string"/>
+<Field __index="84" __sourcePath="{}/serviceContractSearchResponse/contract/service/dvrName" containerType="SINGLE" label="dvrName" name="dvrName" type="string"/>
+<Field __index="85" __sourcePath="{}/serviceContractSearchResponse/contract/serviceState" containerType="SINGLE" label="serviceState" name="serviceState_1" type="string"/>
+<Field __index="86" __sourcePath="{}/serviceContractSearchResponse/contract/billing/billToCustomer" containerType="SINGLE" label="billToCustomer" name="billToCustomer" type="string"/>
+<Field __index="87" __sourcePath="{}/serviceContractSearchResponse/contract/billing/contractStartDate" containerType="SINGLE" label="contractStartDate" name="contractStartDate" type="string"/>
+<Field __index="88" __sourcePath="{}/serviceContractSearchResponse/contract/billing/nextBillingDate" containerType="SINGLE" label="nextBillingDate" name="nextBillingDate" type="string"/>
+<Field __index="89" __sourcePath="{}/serviceContractSearchResponse/contract/billing/orderReason" containerType="SINGLE" label="orderReason" name="orderReason" type="string"/>
+<Field __index="90" __sourcePath="{}/serviceContractSearchResponse/contract/futureCancel/isFutureCancel" containerType="SINGLE" label="isFutureCancel" name="isFutureCancel" type="string"/>
+<Field __index="162" __sourcePath="{}/serviceContractSearchResponse/contract/futureCancel/cancellationStatus" containerType="SINGLE" label="cancellationStatus" name="cancellationStatus" type="string"/>
+<Field __index="163" __sourcePath="{}/serviceContractSearchResponse/contract/futureCancel/cancellationDate" containerType="SINGLE" label="cancellationDate" name="cancellationDate" type="string"/>
+<Field __index="164" __sourcePath="{}/serviceContractSearchResponse/contract/futureCancel/autoCaseNum" containerType="SINGLE" label="autoCaseNum" name="autoCaseNum" type="string"/>
+<Field __index="165" __sourcePath="{}/serviceContractSearchResponse/contract/futureCancel/manualCaseNum" containerType="SINGLE" label="manualCaseNum" name="manualCaseNum" type="string"/>
+<Field __index="91" __sourcePath="{}/serviceContractSearchResponse/contract/hardwareService/activatedSku" containerType="SINGLE" label="activatedSku" name="activatedSku" type="string"/>
+<Field __index="92" __sourcePath="{}/serviceContractSearchResponse/contract/hardwareService/activatedRecorderDescription" containerType="SINGLE" label="activatedRecorderDescription" name="activatedRecorderDescription" type="string"/>
+<Field __index="93" __sourcePath="{}/serviceContractSearchResponse/contract/hardwareService/birthDate" containerType="SINGLE" label="birthDate" name="birthDate_1" type="string"/>
+<Field __index="94" __sourcePath="{}/serviceContractSearchResponse/contract/hardwareService/dvrName" containerType="SINGLE" label="dvrName" name="dvrName_1" type="string"/>
+<Field __index="95" __sourcePath="{}/serviceContractSearchResponse/contract/hardwareService/manufactureModel" containerType="SINGLE" label="manufactureModel" name="manufactureModel" type="string"/>
+<Field __index="96" __sourcePath="{}/serviceContractSearchResponse/contract/hardwareService/manufactureSerial" containerType="SINGLE" label="manufactureSerial" name="manufactureSerial" type="string"/>
+<Field __index="97" __sourcePath="{}/serviceContractSearchResponse/contract/hardwareService/dvrType" containerType="SINGLE" label="dvrType" name="dvrType" type="string"/>
+<Field __index="98" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/original/paymentPlan" containerType="SINGLE" label="paymentPlan" name="paymentPlan" type="string"/>
+<Field __index="99" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/original/description" containerType="SINGLE" label="description" name="description_2" type="string"/>
+<Field __index="100" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/original/startDate" containerType="SINGLE" label="startDate" name="startDate_1" type="string"/>
+<Field __index="101" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/original/endDate" containerType="SINGLE" label="endDate" name="endDate_1" type="string"/>
+<Field __index="102" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/original/active" containerType="SINGLE" label="active" name="active" type="string"/>
+<Field __index="103" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/original/type" containerType="SINGLE" label="type" name="type" type="string"/>
+<Field __index="104" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/original/MSD" containerType="SINGLE" label="MSD" name="MSD" type="string"/>
+<Field __index="105" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/original/price" containerType="SINGLE" label="price" name="price_1" type="string"/>
+<Field __index="106" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/current/paymentPlan" containerType="SINGLE" label="paymentPlan" name="paymentPlan_1" type="string"/>
+<Field __index="107" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/current/description" containerType="SINGLE" label="description" name="description_3" type="string"/>
+<Field __index="108" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/current/startDate" containerType="SINGLE" label="startDate" name="startDate_2" type="string"/>
+<Field __index="109" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/current/endDate" containerType="SINGLE" label="endDate" name="endDate_2" type="string"/>
+<Field __index="110" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/current/active" containerType="SINGLE" label="active" name="active_1" type="string"/>
+<Field __index="111" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/current/type" containerType="SINGLE" label="type" name="type_1" type="string"/>
+<Field __index="112" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/current/MSD" containerType="SINGLE" label="MSD" name="MSD_1" type="string"/>
+<Field __index="113" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/current/price" containerType="SINGLE" label="price" name="price_2" type="string"/>
+<Field __index="114" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/rollover/paymentPlan" containerType="SINGLE" label="paymentPlan" name="paymentPlan_2" type="string"/>
+<Field __index="115" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/rollover/description" containerType="SINGLE" label="description" name="description_4" type="string"/>
+<Field __index="116" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/rollover/startDate" containerType="SINGLE" label="startDate" name="startDate_3" type="string"/>
+<Field __index="117" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/rollover/endDate" containerType="SINGLE" label="endDate" name="endDate_3" type="string"/>
+<Field __index="118" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/rollover/active" containerType="SINGLE" label="active" name="active_2" type="string"/>
+<Field __index="119" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/rollover/type" containerType="SINGLE" label="type" name="type_2" type="string"/>
+<Field __index="120" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/rollover/MSD" containerType="SINGLE" label="MSD" name="MSD_2" type="string"/>
+<Field __index="121" __sourcePath="{}/serviceContractSearchResponse/contract/paymentPlan/rollover/price" containerType="SINGLE" label="price" name="price_3" type="string"/>
+<Field __index="122" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/isEligible" containerType="SINGLE" label="isEligible" name="isEligible" type="string"/>
+<Field __index="123" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/warrantyNumber" containerType="SINGLE" label="warrantyNumber" name="warrantyNumber" type="string"/>
+<Field __index="124" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/stdStartDate" containerType="SINGLE" label="stdStartDate" name="stdStartDate" type="string"/>
+<Field __index="125" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/extStartDate" containerType="SINGLE" label="extStartDate" name="extStartDate" type="string"/>
+<Field __index="126" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/extEndDate" containerType="SINGLE" label="extEndDate" name="extEndDate" type="string"/>
+<Field __index="127" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/extPurchaseDate" containerType="SINGLE" label="extPurchaseDate" name="extPurchaseDate" type="string"/>
+<Field __index="128" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/extPrice" containerType="SINGLE" label="extPrice" name="extPrice" type="string"/>
+<Field __index="129" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/extCancelDate" containerType="SINGLE" label="extCancelDate" name="extCancelDate" type="string"/>
+<Field __index="130" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/rmaFee" containerType="SINGLE" label="rmaFee" name="rmaFee" type="string"/>
+<Field __index="131" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/plan/paymentPlan" containerType="SINGLE" label="paymentPlan" name="paymentPlan_3" type="string"/>
+<Field __index="132" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/plan/description" containerType="SINGLE" label="description" name="description_5" type="string"/>
+<Field __index="133" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/plan/startDate" containerType="SINGLE" label="startDate" name="startDate_4" type="string"/>
+<Field __index="134" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/plan/endDate" containerType="SINGLE" label="endDate" name="endDate_4" type="string"/>
+<Field __index="135" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/plan/active" containerType="SINGLE" label="active" name="active_3" type="string"/>
+<Field __index="136" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/plan/type" containerType="SINGLE" label="type" name="type_3" type="string"/>
+<Field __index="137" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/plan/MSD" containerType="SINGLE" label="MSD" name="MSD_3" type="string"/>
+<Field __index="138" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/plan/price" containerType="SINGLE" label="price" name="price_4" type="string"/>
+<Field __index="139" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/status" containerType="SINGLE" label="status" name="status_2" type="string"/>
+<Field __index="140" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/refundAmountPrice" containerType="SINGLE" label="refundAmountPrice" name="refundAmountPrice" type="string"/>
+<Field __index="141" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/refundAmountTax" containerType="SINGLE" label="refundAmountTax" name="refundAmountTax" type="string"/>
+<Field __index="142" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/refundAmountTotal" containerType="SINGLE" label="refundAmountTotal" name="refundAmountTotal" type="string"/>
+<Field __index="143" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/field_167" containerType="SINGLE" label="field_167" name="field_167" type="string"/>
+<Field __index="144" __sourcePath="{}/serviceContractSearchResponse/contract/warranty/field_168" containerType="SINGLE" label="field_168" name="field_168" type="string"/>
+<Field __cdata="false" __index="145" __sourcePath="{}/serviceContractSearchResponse/contract/statOpen" containerType="SINGLE" label="statOpen" name="field_39" type="string"/>
+<Field __cdata="false" __index="146" __sourcePath="{}/serviceContractSearchResponse/contract/statClosed" containerType="SINGLE" label="statClosed" name="field_40" type="string"/>
+<Field __cdata="false" __index="147" __sourcePath="{}/serviceContractSearchResponse/contract/statBillInComp" containerType="SINGLE" label="statBillInComp" name="field_41" type="string"/>
+<Field __cdata="false" __index="148" __sourcePath="{}/serviceContractSearchResponse/contract/statCancel" containerType="SINGLE" label="statCancel" name="field_42" type="string"/>
+<Field __index="149" __sourcePath="{}/serviceContractSearchResponse/contract/field_43" containerType="SINGLE" label="field_43" name="field_43" type="string"/>
+<Field __index="150" __sourcePath="{}/serviceContractSearchResponse/contract/field_44" containerType="SINGLE" label="field_44" name="field_44" type="string"/>
+<Field __index="151" __sourcePath="{}/serviceContractSearchResponse/contract/field_45" containerType="SINGLE" label="field_45" name="field_45" type="string"/>
+<Field __index="152" __sourcePath="{}/serviceContractSearchResponse/contract/field_46" containerType="SINGLE" label="field_46" name="field_46" type="string"/>
+<Field __index="153" __sourcePath="{}/serviceContractSearchResponse/contract/field_47" containerType="SINGLE" label="field_47" name="field_47" type="string"/>
+<Field __index="154" __sourcePath="{}/serviceContractSearchResponse/contract/field_48" containerType="SINGLE" label="field_48" name="field_48" type="string"/>
+<Field __index="155" __sourcePath="{}/serviceContractSearchResponse/contract/field_49" containerType="SINGLE" label="field_49" name="field_49" type="string"/>
+<Field __index="156" __sourcePath="{}/serviceContractSearchResponse/contract/field_50" containerType="SINGLE" label="field_50" name="field_50" type="string"/>
+<Field __index="157" __sourcePath="{}/serviceContractSearchResponse/contract/field_51" containerType="SINGLE" label="field_51" name="field_51" type="string"/>
+<Field __index="158" __sourcePath="{}/serviceContractSearchResponse/contract/field_52" containerType="SINGLE" label="field_52" name="field_52" type="string"/>
+<Field __index="159" __sourcePath="{}/serviceContractSearchResponse/contract/field_53" containerType="SINGLE" label="field_53" name="field_53" type="string"/>
+<Field __index="160" __sourcePath="{}/serviceContractSearchResponse/contract/field_54" containerType="SINGLE" label="field_54" name="field_54" type="string"/>
+<Field __index="161" __sourcePath="{}/serviceContractSearchResponse/contract/field_55" containerType="SINGLE" label="field_55" name="field_55" type="string"/>
+<Field __sourcePath="{}/serviceContractSearchResponse/contract/promotion/@conditionType" containerType="SINGLE" label="conditionType" name="conditionType" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/serviceContractSearchResponse/contractOpenItem" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="ef33be05-d631-446a-8cb9-48e41bc08bf2" _parent_id="__parent_id" _type="Output" id="248cfaf9-62d8-4b7f-86a8-f1873b1598de">
+<Record fieldDelimiter="," name="contractOpenItem" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="0" __sourcePath="{}/serviceContractSearchResponse/contractOpenItem/contractNumber" containerType="SINGLE" label="contractNumber" name="contractNumber" type="string"/>
+<Field __index="1" __sourcePath="{}/serviceContractSearchResponse/contractOpenItem/tsn" containerType="SINGLE" label="tsn" name="tsn" type="string"/>
+<Field __index="2" __sourcePath="{}/serviceContractSearchResponse/contractOpenItem/openAmount" containerType="SINGLE" label="openAmount" name="openAmount" type="string"/>
+<Field __index="3" __sourcePath="{}/serviceContractSearchResponse/contractOpenItem/dunning" containerType="SINGLE" label="dunning" name="dunning" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/serviceContractSearchResponse/contractSapStatus" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="ef33be05-d631-446a-8cb9-48e41bc08bf2" _parent_id="__parent_id" _type="Output" id="e42e8604-a365-45be-aa4f-947d1279642d">
+<Record fieldDelimiter="," name="contractSapStatus" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="0" __sourcePath="{}/serviceContractSearchResponse/contractSapStatus/contractNumber" containerType="SINGLE" label="contractNumber" name="contractNumber" type="string"/>
+<Field __index="1" __sourcePath="{}/serviceContractSearchResponse/contractSapStatus/open" containerType="SINGLE" label="open" name="open" type="string"/>
+<Field __index="2" __sourcePath="{}/serviceContractSearchResponse/contractSapStatus/closed" containerType="SINGLE" label="closed" name="closed" type="string"/>
+<Field __index="3" __sourcePath="{}/serviceContractSearchResponse/contractSapStatus/billInComp" containerType="SINGLE" label="billInComp" name="billInComp" type="string"/>
+<Field __index="4" __sourcePath="{}/serviceContractSearchResponse/contractSapStatus/cancel" containerType="SINGLE" label="cancel" name="cancel" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="17" __referenceCounter="1" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_OPENITEMS/row" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="cf4af53b-9e85-407c-9b64-9a07021c644b" _parent_id="__parent_id" _type="Input" id="3e92751c-894d-4c92-9880-42940bf0574a">
+<Record fieldDelimiter="," name="row" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="17" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_OPENITEMS/row/CONTRACT" containerType="SINGLE" label="CONTRACT" name="CONTRACT" type="string"/>
+<Field __index="18" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_OPENITEMS/row/SERNR" containerType="SINGLE" label="SERNR" name="SERNR" type="string"/>
+<Field __index="19" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_OPENITEMS/row/OPEN_AMT" containerType="SINGLE" label="OPEN_AMT" name="OPEN_AMT" type="string"/>
+<Field __index="20" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_OPENITEMS/row/DUNNING" containerType="SINGLE" label="DUNNING" name="DUNNING" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="21" __referenceCounter="2" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="cf4af53b-9e85-407c-9b64-9a07021c644b" _parent_id="__parent_id" _type="Input" id="134ecb73-24df-475f-b671-ed04ae567a73">
+<Record fieldDelimiter="," name="row" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="21" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CONTRACT" containerType="SINGLE" label="CONTRACT" name="CONTRACT" type="string"/>
+<Field __index="22" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/LINEITEM" containerType="SINGLE" label="LINEITEM" name="LINEITEM" type="string"/>
+<Field __index="23" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CONTRACTDATE" containerType="SINGLE" label="CONTRACTDATE" name="CONTRACTDATE" type="string"/>
+<Field __index="24" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ITEM" containerType="SINGLE" label="ITEM" name="ITEM" type="string"/>
+<Field __index="25" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ITEMDESCRIPTION" containerType="SINGLE" label="ITEMDESCRIPTION" name="ITEMDESCRIPTION" type="string"/>
+<Field __index="26" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/SERIALNUMBER" containerType="SINGLE" label="SERIALNUMBER" name="SERIALNUMBER" type="string"/>
+<Field __index="27" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ACTSKU" containerType="SINGLE" label="ACTSKU" name="ACTSKU" type="string"/>
+<Field __index="28" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ACTRECORDER" containerType="SINGLE" label="ACTRECORDER" name="ACTRECORDER" type="string"/>
+<Field __index="29" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/BIRTHDATE" containerType="SINGLE" label="BIRTHDATE" name="BIRTHDATE" type="string"/>
+<Field __index="30" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STATOPEN" containerType="SINGLE" label="STATOPEN" name="STATOPEN" type="string"/>
+<Field __index="31" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STATCLOSE" containerType="SINGLE" label="STATCLOSE" name="STATCLOSE" type="string"/>
+<Field __index="32" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STATBILLINCOMP" containerType="SINGLE" label="STATBILLINCOMP" name="STATBILLINCOMP" type="string"/>
+<Field __index="33" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STATCANCEL" containerType="SINGLE" label="STATCANCEL" name="STATCANCEL" type="string"/>
+<Field __index="34" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/DEALERNAME" containerType="SINGLE" label="DEALERNAME" name="DEALERNAME" type="string"/>
+<Field __index="35" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/MFGID" containerType="SINGLE" label="MFGID" name="MFGID" type="string"/>
+<Field __index="36" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CAM_NO" containerType="SINGLE" label="CAM_NO" name="CAM_NO" type="string"/>
+<Field __index="37" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/TRAKNO" containerType="SINGLE" label="TRAKNO" name="TRAKNO" type="string"/>
+<Field __index="38" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ITEM_CATG" containerType="SINGLE" label="ITEM_CATG" name="ITEM_CATG" type="string"/>
+<Field __index="39" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ACCT_GRP" containerType="SINGLE" label="ACCT_GRP" name="ACCT_GRP" type="string"/>
+<Field __index="40" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STBTIND" containerType="SINGLE" label="STBTIND" name="STBTIND" type="string"/>
+<Field __index="41" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STARTDATE" containerType="SINGLE" label="STARTDATE" name="STARTDATE" type="string"/>
+<Field __index="42" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/SERVSTAT" containerType="SINGLE" label="SERVSTAT" name="SERVSTAT" type="string"/>
+<Field __index="43" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/LASTDT" containerType="SINGLE" label="LASTDT" name="LASTDT" type="string"/>
+<Field __index="44" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ZZTCDNAME" containerType="SINGLE" label="ZZTCDNAME" name="ZZTCDNAME" type="string"/>
+<Field __index="45" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/IHVFLAG" containerType="SINGLE" label="IHVFLAG" name="IHVFLAG" type="string"/>
+<Field __index="46" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/APP_ORDER" containerType="SINGLE" label="APP_ORDER" name="APP_ORDER" type="string"/>
+<Field __index="47" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CREDITMEMO" containerType="SINGLE" label="CREDITMEMO" name="CREDITMEMO" type="string"/>
+<Field __index="48" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/HMO_STATUS" containerType="SINGLE" label="HMO_STATUS" name="HMO_STATUS" type="string"/>
+<Field __index="49" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/SETTLED" containerType="SINGLE" label="SETTLED" name="SETTLED" type="string"/>
+<Field __index="50" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/BILLTO_CUST" containerType="SINGLE" label="BILLTO_CUST" name="BILLTO_CUST" type="string"/>
+<Field __index="51" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/SOLDTO_CUST" containerType="SINGLE" label="SOLDTO_CUST" name="SOLDTO_CUST" type="string"/>
+<Field __index="52" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/PAYER_CUST" containerType="SINGLE" label="PAYER_CUST" name="PAYER_CUST" type="string"/>
+<Field __index="53" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/SHIPTO" containerType="SINGLE" label="SHIPTO" name="SHIPTO" type="string"/>
+<Field __index="54" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CCTYP" containerType="SINGLE" label="CCTYP" name="CCTYP" type="string"/>
+<Field __index="55" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CC_NUM" containerType="SINGLE" label="CC_NUM" name="CC_NUM" type="string"/>
+<Field __index="56" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CC_EXPDATE" containerType="SINGLE" label="CC_EXPDATE" name="CC_EXPDATE" type="string"/>
+<Field __index="57" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CC_NAME" containerType="SINGLE" label="CC_NAME" name="CC_NAME" type="string"/>
+<Field __index="58" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/MRV" containerType="SINGLE" label="MRV" name="MRV" type="string"/>
+<Field __index="59" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/MUSIC_PHOTO" containerType="SINGLE" label="MUSIC_PHOTO" name="MUSIC_PHOTO" type="string"/>
+<Field __index="60" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/DOCUMENT_TYPE" containerType="SINGLE" label="DOCUMENT_TYPE" name="DOCUMENT_TYPE" type="string"/>
+<Field __index="61" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ENDDATE" containerType="SINGLE" label="ENDDATE" name="ENDDATE" type="string"/>
+<Field __index="62" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/MSD_FLAG" containerType="SINGLE" label="MSD_FLAG" name="MSD_FLAG" type="string"/>
+<Field __index="63" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/INCONSISTENCY_FLAG" containerType="SINGLE" label="INCONSISTENCY_FLAG" name="INCONSISTENCY_FLAG" type="string"/>
+<Field __index="64" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CDSENABLED" containerType="SINGLE" label="CDSENABLED" name="CDSENABLED" type="string"/>
+<Field __index="65" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/BOX_TYPE" containerType="SINGLE" label="BOX_TYPE" name="BOX_TYPE" type="string"/>
+<Field __index="66" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CUR_COM_STADT" containerType="SINGLE" label="CUR_COM_STADT" name="CUR_COM_STADT" type="string"/>
+<Field __index="67" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CUR_COM_ENDDT" containerType="SINGLE" label="CUR_COM_ENDDT" name="CUR_COM_ENDDT" type="string"/>
+<Field __index="68" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ORG_COM_STADT" containerType="SINGLE" label="ORG_COM_STADT" name="ORG_COM_STADT" type="string"/>
+<Field __index="69" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ORG_COM_ENDDT" containerType="SINGLE" label="ORG_COM_ENDDT" name="ORG_COM_ENDDT" type="string"/>
+<Field __index="70" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ORG_COM_PLAN" containerType="SINGLE" label="ORG_COM_PLAN" name="ORG_COM_PLAN" type="string"/>
+<Field __index="71" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CONDITION_TYPE" containerType="SINGLE" label="CONDITION_TYPE" name="CONDITION_TYPE" type="string"/>
+<Field __index="72" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ORDERREASON_TEXT" containerType="SINGLE" label="ORDERREASON_TEXT" name="ORDERREASON_TEXT" type="string"/>
+<Field __index="73" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/PROMOCODE" containerType="SINGLE" label="PROMOCODE" name="PROMOCODE" type="string"/>
+<Field __index="74" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/DESCRIPTION" containerType="SINGLE" label="DESCRIPTION" name="DESCRIPTION" type="string"/>
+<Field __index="75" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/SHORT_DESC" containerType="SINGLE" label="SHORT_DESC" name="SHORT_DESC" type="string"/>
+<Field __index="76" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/DATE_FROM" containerType="SINGLE" label="DATE_FROM" name="DATE_FROM" type="string"/>
+<Field __index="77" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/DATE_TO" containerType="SINGLE" label="DATE_TO" name="DATE_TO" type="string"/>
+<Field __index="78" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/PROMO_USAGE" containerType="SINGLE" label="PROMO_USAGE" name="PROMO_USAGE" type="string"/>
+<Field __index="79" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/PROMO_START" containerType="SINGLE" label="PROMO_START" name="PROMO_START" type="string"/>
+<Field __index="80" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/PROMO_DURATION" containerType="SINGLE" label="PROMO_DURATION" name="PROMO_DURATION" type="string"/>
+<Field __index="81" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/VALIDITY_CHECK" containerType="SINGLE" label="VALIDITY_CHECK" name="VALIDITY_CHECK" type="string"/>
+<Field __index="82" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CONCESSION_FLAG" containerType="SINGLE" label="CONCESSION_FLAG" name="CONCESSION_FLAG" type="string"/>
+<Field __index="83" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_SKU" containerType="SINGLE" label="ROLLOVER_SKU" name="ROLLOVER_SKU" type="string"/>
+<Field __index="84" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_DESC" containerType="SINGLE" label="ROLLOVER_PLAN_DESC" name="ROLLOVER_PLAN_DESC" type="string"/>
+<Field __index="85" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_DT" containerType="SINGLE" label="ROLLOVER_PLAN_DT" name="ROLLOVER_PLAN_DT" type="string"/>
+<Field __index="86" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/USUAGE_INDICATOR" containerType="SINGLE" label="USUAGE_INDICATOR" name="USUAGE_INDICATOR" type="string"/>
+<Field __index="87" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/USUAGE_IND_DESC" containerType="SINGLE" label="USUAGE_IND_DESC" name="USUAGE_IND_DESC" type="string"/>
+<Field __index="88" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/REA_ORG_COMMITMENT_START_DT" containerType="SINGLE" label="REA_ORG_COMMITMENT_START_DT" name="REA_ORG_COMMITMENT_START_DT" type="string"/>
+<Field __index="89" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/REA_REASON" containerType="SINGLE" label="REA_REASON" name="REA_REASON" type="string"/>
+<Field __index="90" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/REA_REASON_DESC" containerType="SINGLE" label="REA_REASON_DESC" name="REA_REASON_DESC" type="string"/>
+<Field __index="91" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_TYPE" containerType="SINGLE" label="ROLLOVER_TYPE" name="ROLLOVER_TYPE" type="string"/>
+<Field __index="92" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_PRICE" containerType="SINGLE" label="ROLLOVER_PLAN_PRICE" name="ROLLOVER_PLAN_PRICE" type="string"/>
+<Field __index="93" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_MSD" containerType="SINGLE" label="ROLLOVER_PLAN_MSD" name="ROLLOVER_PLAN_MSD" type="string"/>
+<Field __index="94" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_END_DT" containerType="SINGLE" label="ROLLOVER_PLAN_END_DT" name="ROLLOVER_PLAN_END_DT" type="string"/>
+<Field __index="95" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_DURATION" containerType="SINGLE" label="ROLLOVER_PLAN_DURATION" name="ROLLOVER_PLAN_DURATION" type="string"/>
+<Field __index="96" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_TYPE" containerType="SINGLE" label="ROLLOVER_PLAN_TYPE" name="ROLLOVER_PLAN_TYPE" type="string"/>
+<Field __index="97" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_PROMO" containerType="SINGLE" label="ROLLOVER_PLAN_PROMO" name="ROLLOVER_PLAN_PROMO" type="string"/>
+<Field __index="98" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_PROMO_DESC" containerType="SINGLE" label="ROLLOVER_PLAN_PROMO_DESC" name="ROLLOVER_PLAN_PROMO_DESC" type="string"/>
+<Field __index="99" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_PROMO_SDESC" containerType="SINGLE" label="ROLLOVER_PLAN_PROMO_SDESC" name="ROLLOVER_PLAN_PROMO_SDESC" type="string"/>
+<Field __index="100" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/FUT_CANCEL_DATE" containerType="SINGLE" label="FUT_CANCEL_DATE" name="FUT_CANCEL_DATE" type="string"/>
+<Field __index="101" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/UPGRADE_ELIGIBILITY" containerType="SINGLE" label="UPGRADE_ELIGIBILITY" name="UPGRADE_ELIGIBILITY" type="string"/>
+<Field __index="102" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_ELIGIBILITY" containerType="SINGLE" label="WNTY_ELIGIBILITY" name="WNTY_ELIGIBILITY" type="string"/>
+<Field __index="103" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_CONTRACT" containerType="SINGLE" label="WNTY_CONTRACT" name="WNTY_CONTRACT" type="string"/>
+<Field __index="104" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STN_WNTY_START_DT" containerType="SINGLE" label="STN_WNTY_START_DT" name="STN_WNTY_START_DT" type="string"/>
+<Field __index="105" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_START_DT" containerType="SINGLE" label="WNTY_START_DT" name="WNTY_START_DT" type="string"/>
+<Field __index="106" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_END_DT" containerType="SINGLE" label="WNTY_END_DT" name="WNTY_END_DT" type="string"/>
+<Field __index="107" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_CREATE_DT" containerType="SINGLE" label="WNTY_CREATE_DT" name="WNTY_CREATE_DT" type="string"/>
+<Field __index="108" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_PRICE" containerType="SINGLE" label="WNTY_PRICE" name="WNTY_PRICE" type="string"/>
+<Field __index="109" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_CANCEL_DT" containerType="SINGLE" label="WNTY_CANCEL_DT" name="WNTY_CANCEL_DT" type="string"/>
+<Field __index="110" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_PLAN" containerType="SINGLE" label="WNTY_PLAN" name="WNTY_PLAN" type="string"/>
+<Field __index="111" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_PLAN_DESC" containerType="SINGLE" label="WNTY_PLAN_DESC" name="WNTY_PLAN_DESC" type="string"/>
+<Field __index="112" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_PLAN_TYPE" containerType="SINGLE" label="WNTY_PLAN_TYPE" name="WNTY_PLAN_TYPE" type="string"/>
+<Field __index="113" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_STATUS" containerType="SINGLE" label="WNTY_STATUS" name="WNTY_STATUS" type="string"/>
+<Field __index="114" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/RMA_FEE" containerType="SINGLE" label="RMA_FEE" name="RMA_FEE" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/serviceContractSearchResponse" _dataStructure="OBJECT" _id="__id" _type="Output" id="ef33be05-d631-446a-8cb9-48e41bc08bf2">
+<Record fieldDelimiter="," name="serviceContractSearchResponse" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="0" __sourcePath="{}/serviceContractSearchResponse/status" containerType="SINGLE" label="status" name="status" type="string"/>
+</Record>
+</Metadata>
+<Metadata __filteredMetadata="false" __index="0" __referenceCounter="1" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1" _dataStructure="OBJECT" _id="__id" _type="Input" id="cf4af53b-9e85-407c-9b64-9a07021c644b">
+<Record fieldDelimiter="," name="ZBAPI_WCC_GET_CONTRACT_STATUS1" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="0" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/import/ZBAPI_CUSTOMER" containerType="SINGLE" label="ZBAPI_CUSTOMER" name="ZBAPI_CUSTOMER" type="string"/>
+<Field __index="1" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/import/ZBAPI_FLAG" containerType="SINGLE" label="ZBAPI_FLAG" name="ZBAPI_FLAG" type="string"/>
+<Field __index="2" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/import/ZBAPI_PAYER" containerType="SINGLE" label="ZBAPI_PAYER" name="ZBAPI_PAYER" type="string"/>
+<Field __index="3" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/TYPE" containerType="SINGLE" label="TYPE" name="TYPE" type="string"/>
+<Field __index="4" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/ID" containerType="SINGLE" label="ID" name="ID" type="string"/>
+<Field __index="5" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/NUMBER" containerType="SINGLE" label="NUMBER" name="NUMBER" type="string"/>
+<Field __index="6" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/MESSAGE" containerType="SINGLE" label="MESSAGE" name="MESSAGE" type="string"/>
+<Field __index="7" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/LOG_NO" containerType="SINGLE" label="LOG_NO" name="LOG_NO" type="string"/>
+<Field __index="8" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/LOG_MSG_NO" containerType="SINGLE" label="LOG_MSG_NO" name="LOG_MSG_NO" type="string"/>
+<Field __index="9" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/MESSAGE_V1" containerType="SINGLE" label="MESSAGE_V1" name="MESSAGE_V1" type="string"/>
+<Field __index="10" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/MESSAGE_V2" containerType="SINGLE" label="MESSAGE_V2" name="MESSAGE_V2" type="string"/>
+<Field __index="11" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/MESSAGE_V3" containerType="SINGLE" label="MESSAGE_V3" name="MESSAGE_V3" type="string"/>
+<Field __index="12" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/MESSAGE_V4" containerType="SINGLE" label="MESSAGE_V4" name="MESSAGE_V4" type="string"/>
+<Field __index="13" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/PARAMETER" containerType="SINGLE" label="PARAMETER" name="PARAMETER" type="string"/>
+<Field __index="14" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/ROW" containerType="SINGLE" label="ROW" name="ROW" type="string"/>
+<Field __index="15" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/FIELD" containerType="SINGLE" label="FIELD" name="FIELD" type="string"/>
+<Field __index="16" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/SYSTEM" containerType="SINGLE" label="SYSTEM" name="SYSTEM" type="string"/>
+</Record>
+</Metadata>
+<Dictionary>
+<Entry id="DictionaryEntry0" input="true" name="inputPayload" output="false" type="object"/>
+<Entry id="DictionaryEntry1" input="false" name="outputPayload" output="true" type="object"/>
+</Dictionary>
+</Global>
+<Phase number="0">
+<Node cacheInMemory="true" charset="UTF-8" enabled="enabled" fileURL="dict:outputPayload" guiName="XML WRITER" guiX="900" guiY="20" id="EXT_XML_WRITER0" type="EXT_XML_WRITER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<serviceContractSearchResponse xmlns:clover="http://www.cloveretl.com/ns/xmlmapping" clover:inPort="0">
+  <contractOpenItem clover:inPort="1" clover:key="__parent_id" clover:parentKey="__id">
+    <contractNumber>$1.contractNumber</contractNumber>
+    <tsn>$1.tsn</tsn>
+    <openAmount>$1.openAmount</openAmount>
+    <dunning>$1.dunning</dunning>
+  </contractOpenItem>
+  <contractSapStatus clover:inPort="3" clover:key="__parent_id" clover:parentKey="__id">
+    <contractNumber>$3.contractNumber</contractNumber>
+    <open>$3.open</open>
+    <closed>$3.closed</closed>
+    <billInComp>$3.billInComp</billInComp>
+    <cancel>$3.cancel</cancel>
+  </contractSapStatus>
+  <status>$0.status</status>
+  <contract clover:inPort="2" clover:key="__parent_id" clover:parentKey="__id">
+    <contractNumber>$2.contractNumber</contractNumber>
+    <tsn>$2.tsn</tsn>
+    <startDate>$2.startDate</startDate>
+    <endDate>$2.endDate</endDate>
+    <status>$2.status</status>
+    <activationDate>$2.activationDate</activationDate>
+    <accountStatus>$2.accountStatus</accountStatus>
+    <appOrder>$2.appOrder</appOrder>
+    <connectionType>$2.connectionType</connectionType>
+    <contractDate>$2.contractDate</contractDate>
+    <isSilverStreak>$2.isSilverStreak</isSilverStreak>
+    <lineItem>$2.lineItem</lineItem>
+    <material>$2.material</material>
+    <mrv>$2.mrv</mrv>
+    <msd>$2.msd</msd>
+    <msdDescription>$2.msdDescription</msdDescription>
+    <partnerOrderNumber>$2.partnerOrderNumber</partnerOrderNumber>
+    <pgdUntil>$2.pgdUntil</pgdUntil>
+    <promotion conditionType="$2.conditionType">
+      <promoCode>$2.promoCode</promoCode>
+      <usage>$2.usage</usage>
+      <start>$2.start</start>
+      <duration>$2.duration</duration>
+      <description>$2.description</description>
+      <isFreePromoApplied>$2.isFreePromoApplied</isFreePromoApplied>
+    </promotion>
+    <referrerEmail>$2.referrerEmail</referrerEmail>
+    <upgradeEligibilty>$2.upgradeEligibilty</upgradeEligibilty>
+    <amountOwed>$2.amountOwed</amountOwed>
+    <creditMemo>$2.creditMemo</creditMemo>
+    <lastCallDate>$2.lastCallDate</lastCallDate>
+    <billed>$2.billed</billed>
+    <settled>$2.settled</settled>
+    <billToCustomer>
+      <customerNumber>$2.customerNumber</customerNumber>
+    </billToCustomer>
+    <soldToCustomer>
+      <customerNumber>$2.customerNumber_1</customerNumber>
+    </soldToCustomer>
+    <payerCustomer>
+      <customerNumber>$2.customerNumber_2</customerNumber>
+    </payerCustomer>
+    <shipToCustomer>
+      <customerNumber>$2.customerNumber_3</customerNumber>
+    </shipToCustomer>
+    <creditCard>
+      <cardType>$2.cardType</cardType>
+      <expirationDate>$2.expirationDate</expirationDate>
+      <name>$2.name</name>
+      <token>$2.token</token>
+    </creditCard>
+    <serialNumberInfo>
+      <tsn>$2.tsn_1</tsn>
+      <tcdName>$2.tcdName</tcdName>
+      <status>$2.status_1</status>
+      <skuItem>$2.skuItem</skuItem>
+      <model>$2.model</model>
+      <camNo>$2.camNo</camNo>
+      <birthDate>$2.birthDate</birthDate>
+      <teststatus>$2.teststatus</teststatus>
+      <recorder>$2.recorder</recorder>
+      <mfgid>$2.mfgid</mfgid>
+      <hmoStatus>$2.hmoStatus</hmoStatus>
+      <mrv>$2.mrv_1</mrv>
+      <musicPhoto>$2.musicPhoto</musicPhoto>
+      <cdsEnabled>$2.cdsEnabled</cdsEnabled>
+      <boxType>$2.boxType</boxType>
+      <mso>$2.mso</mso>
+      <msoMessage>$2.msoMessage</msoMessage>
+    </serialNumberInfo>
+    <service>
+      <sku>$2.sku</sku>
+      <name>$2.name_1</name>
+      <description>$2.description_1</description>
+      <price>$2.price</price>
+      <discountPrice>$2.discountPrice</discountPrice>
+      <chargePrice>$2.chargePrice</chargePrice>
+      <tax>$2.tax</tax>
+      <priceType>$2.priceType</priceType>
+      <optionType>$2.optionType</optionType>
+      <firstCallDate>$2.firstCallDate</firstCallDate>
+      <temporaryService>$2.temporaryService</temporaryService>
+      <enableDownloads>$2.enableDownloads</enableDownloads>
+      <enableTransfers>$2.enableTransfers</enableTransfers>
+      <kidzonePassword>$2.kidzonePassword</kidzonePassword>
+      <lastCallDate>$2.lastCallDate_1</lastCallDate>
+      <serviceState>$2.serviceState</serviceState>
+      <bsmServiceState>$2.bsmServiceState</bsmServiceState>
+      <sapServiceState>$2.sapServiceState</sapServiceState>
+      <serviceStateDesc>$2.serviceStateDesc</serviceStateDesc>
+      <musicPhoto>$2.musicPhoto_1</musicPhoto>
+      <broadband>$2.broadband</broadband>
+      <swVersion>$2.swVersion</swVersion>
+      <wirelessSignal>$2.wirelessSignal</wirelessSignal>
+      <serial>$2.serial</serial>
+      <dvrName>$2.dvrName</dvrName>
+    </service>
+    <serviceState>$2.serviceState_1</serviceState>
+    <billing>
+      <billToCustomer>$2.billToCustomer</billToCustomer>
+      <contractStartDate>$2.contractStartDate</contractStartDate>
+      <nextBillingDate>$2.nextBillingDate</nextBillingDate>
+      <orderReason>$2.orderReason</orderReason>
+    </billing>
+    <futureCancel>
+      <isFutureCancel>$2.isFutureCancel</isFutureCancel>
+      <cancellationStatus>$2.cancellationStatus</cancellationStatus>
+      <cancellationDate>$2.cancellationDate</cancellationDate>
+      <autoCaseNum>$2.autoCaseNum</autoCaseNum>
+      <manualCaseNum>$2.manualCaseNum</manualCaseNum>
+    </futureCancel>
+    <hardwareService>
+      <activatedSku>$2.activatedSku</activatedSku>
+      <activatedRecorderDescription>$2.activatedRecorderDescription</activatedRecorderDescription>
+      <birthDate>$2.birthDate_1</birthDate>
+      <dvrName>$2.dvrName_1</dvrName>
+      <manufactureModel>$2.manufactureModel</manufactureModel>
+      <manufactureSerial>$2.manufactureSerial</manufactureSerial>
+      <dvrType>$2.dvrType</dvrType>
+    </hardwareService>
+    <paymentPlan>
+      <original>
+        <paymentPlan>$2.paymentPlan</paymentPlan>
+        <description>$2.description_2</description>
+        <startDate>$2.startDate_1</startDate>
+        <endDate>$2.endDate_1</endDate>
+        <active>$2.active</active>
+        <type>$2.type</type>
+        <MSD>$2.MSD</MSD>
+        <price>$2.price_1</price>
+      </original>
+      <current>
+        <paymentPlan>$2.paymentPlan_1</paymentPlan>
+        <description>$2.description_3</description>
+        <startDate>$2.startDate_2</startDate>
+        <endDate>$2.endDate_2</endDate>
+        <active>$2.active_1</active>
+        <type>$2.type_1</type>
+        <MSD>$2.MSD_1</MSD>
+        <price>$2.price_2</price>
+      </current>
+      <rollover>
+        <paymentPlan>$2.paymentPlan_2</paymentPlan>
+        <description>$2.description_4</description>
+        <startDate>$2.startDate_3</startDate>
+        <endDate>$2.endDate_3</endDate>
+        <active>$2.active_2</active>
+        <type>$2.type_2</type>
+        <MSD>$2.MSD_2</MSD>
+        <price>$2.price_3</price>
+      </rollover>
+    </paymentPlan>
+    <warranty>
+      <isEligible>$2.isEligible</isEligible>
+      <warrantyNumber>$2.warrantyNumber</warrantyNumber>
+      <stdStartDate>$2.stdStartDate</stdStartDate>
+      <extStartDate>$2.extStartDate</extStartDate>
+      <extEndDate>$2.extEndDate</extEndDate>
+      <extPurchaseDate>$2.extPurchaseDate</extPurchaseDate>
+      <extPrice>$2.extPrice</extPrice>
+      <extCancelDate>$2.extCancelDate</extCancelDate>
+      <rmaFee>$2.rmaFee</rmaFee>
+      <plan>
+        <paymentPlan>$2.paymentPlan_3</paymentPlan>
+        <description>$2.description_5</description>
+        <startDate>$2.startDate_4</startDate>
+        <endDate>$2.endDate_4</endDate>
+        <active>$2.active_3</active>
+        <type>$2.type_3</type>
+        <MSD>$2.MSD_3</MSD>
+        <price>$2.price_4</price>
+      </plan>
+      <status>$2.status_2</status>
+      <refundAmountPrice>$2.refundAmountPrice</refundAmountPrice>
+      <refundAmountTax>$2.refundAmountTax</refundAmountTax>
+      <refundAmountTotal>$2.refundAmountTotal</refundAmountTotal>
+      <clover:element clover:name="field_167">$2.field_167</clover:element>
+      <clover:element clover:name="field_168">$2.field_168</clover:element>
+    </warranty>
+    <statOpen>$2.field_39</statOpen>
+    <statClosed>$2.field_40</statClosed>
+    <statBillInComp>$2.field_41</statBillInComp>
+    <statCancel>$2.field_42</statCancel>
+    <clover:element clover:name="field_43">$2.field_43</clover:element>
+    <clover:element clover:name="field_44">$2.field_44</clover:element>
+    <clover:element clover:name="field_45">$2.field_45</clover:element>
+    <clover:element clover:name="field_46">$2.field_46</clover:element>
+    <clover:element clover:name="field_47">$2.field_47</clover:element>
+    <clover:element clover:name="field_48">$2.field_48</clover:element>
+    <clover:element clover:name="field_49">$2.field_49</clover:element>
+    <clover:element clover:name="field_50">$2.field_50</clover:element>
+    <clover:element clover:name="field_51">$2.field_51</clover:element>
+    <clover:element clover:name="field_52">$2.field_52</clover:element>
+    <clover:element clover:name="field_53">$2.field_53</clover:element>
+    <clover:element clover:name="field_54">$2.field_54</clover:element>
+    <clover:element clover:name="field_55">$2.field_55</clover:element>
+  </contract>
+</serviceContractSearchResponse>]]></attr>
+<attr name="_data_format"><![CDATA[XML]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'row' -&gt; 'contract'" guiX="460" guiY="220" id="FOREACH_ROW_CONTRACT" transformClass="com.mulesoft.datamapper.transform.MelRecordTransform" type="REFORMAT">
+<attr name="melScript"><![CDATA[//MEL
+//START -> DO NOT REMOVE
+output.__id = input.__id;
+output.__parent_id = input.__parent_id;
+//END -> DO NOT REMOVE
+output.lineItem = input.LINEITEM;
+output.contractDate = input.CONTRACTDATE;
+output.birthDate = input.BIRTHDATE;
+output.mfgid = input.MFGID;
+output.startDate = input.STARTDATE;
+output.creditMemo = input.CREDITMEMO;
+output.settled = input.SETTLED;
+output.mrv = input.MRV;
+output.endDate = input.ENDDATE;
+output.cdsEnabled = input.CDSENABLED;
+output.promoCode = input.PROMOCODE;
+output.description = input.DESCRIPTION;
+output.contractNumber = input.CONTRACT;
+output.sku = input.ITEM;
+output.description_1 = input.ITEMDESCRIPTION;
+output.tsn_1 = input.SERIALNUMBER;
+output.tsn = input.SERIALNUMBER;
+output.activatedSku = input.ACTSKU;
+output.activatedRecorderDescription = input.ACTRECORDER;
+output.birthDate_1 = input.BIRTHDATE;
+output.field_39 = input.STATOPEN;
+output.field_40 = input.STATCLOSE;
+output.field_41 = input.STATBILLINCOMP;
+output.field_42 = input.STATCANCEL;
+output.manufactureSerial = input.MFGID;
+output.cardType = input.CCTYP;
+output.token = input.CC_NUM;
+output.expirationDate = input.CC_EXPDATE;
+output.name = input.CC_NAME;
+output.customerNumber = input.BILLTO_CUST;
+output.customerNumber_1 = input.SOLDTO_CUST;
+output.customerNumber_2 = input.PAYER_CUST;
+output.customerNumber_3 = input.SHIPTO;
+output.serviceState = input.SERVSTAT;
+output.dvrName_1 = input.ZZTCDNAME;
+output.musicPhoto_1 = input.MUSIC_PHOTO;
+output.startDate_2 = input.CUR_COM_STADT;
+output.endDate_2 = input.CUR_COM_ENDDT;
+output.startDate_1 = input.ORG_COM_STADT;
+output.endDate_1 = input.ORG_COM_ENDDT;
+output.paymentPlan = input.ORG_COM_PLAN;
+output.rmaFee = input.RMA_FEE;
+output.stdStartDate = input.STN_WNTY_START_DT;
+output.extStartDate = input.WNTY_START_DT;
+output.extPurchaseDate = input.WNTY_CREATE_DT;
+output.extEndDate = input.WNTY_END_DT;
+output.extPrice = input.WNTY_PRICE;
+output.paymentPlan_3 = input.WNTY_PLAN;
+output.description_5 = input.WNTY_PLAN_DESC;
+output.type_3 = input.WNTY_PLAN_TYPE;
+output.status_2 = input.WNTY_STATUS;
+output.warrantyNumber = input.WNTY_CONTRACT;
+output.isEligible = input.WNTY_ELIGIBILITY;
+output.upgradeEligibilty = input.UPGRADE_ELIGIBILITY;
+output.cancellationDate = input.FUT_CANCEL_DATE;
+output.paymentPlan_2 = input.ROLLOVER_PLAN_DESC;
+output.startDate_3 = input.ROLLOVER_PLAN_DT;
+output.type_2 = input.ROLLOVER_PLAN_TYPE;
+output.price_3 = input.ROLLOVER_PLAN_PRICE;
+output.MSD_2 = input.ROLLOVER_PLAN_MSD;
+output.endDate_3 = input.ROLLOVER_PLAN_END_DT;
+output.appOrder = input.APP_ORDER;
+output.musicPhoto = input.MUSIC_PHOTO;
+output.dvrType = input.DOCUMENT_TYPE;
+output.msd = input.MSD_FLAG;
+output.enableDownloads = input.CDSENABLED;
+output.usage = input.PROMO_USAGE;
+output.start = input.PROMO_START;
+output.duration = input.PROMO_DURATION;
+output.conditionType = input.CONDITION_TYPE;
+output.type_1 = input.USUAGE_IND_DESC;
+output.extCancelDate = input.WNTY_CANCEL_DT;]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'row' -&gt; 'contractOpenItem'" guiX="460" guiY="120" id="FOREACH_ROW_CONTRACT_OPEN_ITEM" transformClass="com.mulesoft.datamapper.transform.MelRecordTransform" type="REFORMAT">
+<attr name="melScript"><![CDATA[//MEL
+//START -> DO NOT REMOVE
+output.__id = input.__id;
+output.__parent_id = input.__parent_id;
+//END -> DO NOT REMOVE
+output.dunning = input.DUNNING;
+output.contractNumber = input.CONTRACT;
+output.tsn = input.SERNR;
+output.openAmount = input.OPEN_AMT;]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'row' -&gt; 'contractSapStatus'" guiX="460" guiY="320" id="FOREACH_ROW_CONTRACT_SAP_STATUS" transformClass="com.mulesoft.datamapper.transform.MelRecordTransform" type="REFORMAT">
+<attr name="melScript"><![CDATA[//MEL
+//START -> DO NOT REMOVE
+output.__id = input.__id;
+output.__parent_id = input.__parent_id;
+//END -> DO NOT REMOVE
+output.open = input.STATOPEN;
+output.closed = input.STATCLOSE;
+output.billInComp = input.STATBILLINCOMP;
+output.cancel = input.STATCANCEL;
+output.contractNumber = input.CONTRACT;]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'ZBAPI_WCC_GET_CONTRACT_STATUS1' -&gt; 'serviceContractSearchResponse'" guiX="460" guiY="20" id="FOREACH_ZBAPI_WCC_GET_CONTRACT_STATUS1_SERVICE_CONTRACT_SEARCH_RESPONSE" transformClass="com.mulesoft.datamapper.transform.MelRecordTransform" type="REFORMAT">
+<attr name="melScript"><![CDATA[//MEL
+//START -> DO NOT REMOVE
+output.__id = input.__id;
+//END -> DO NOT REMOVE
+output.status = input.TYPE;]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Duplicate row" guiX="240" guiY="20" id="SIMPLE_COPY0" type="SIMPLE_COPY"/>
+<Node charset="UTF-8" enabled="enabled" fileURL="dict:inputPayload" guiName="XML READER" guiX="20" guiY="20" id="XML_READER0" type="XML_READER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context outPort="0" sequenceField="__id" xpath="/ZBAPI_WCC_GET_CONTRACT_STATUS1">
+  <Mapping cloverField="ZBAPI_CUSTOMER" trim="true" xpath="import/ZBAPI_CUSTOMER"/>
+  <Mapping cloverField="ZBAPI_FLAG" trim="true" xpath="import/ZBAPI_FLAG"/>
+  <Mapping cloverField="ZBAPI_PAYER" trim="true" xpath="import/ZBAPI_PAYER"/>
+  <Mapping cloverField="TYPE" trim="true" xpath="export/RETURN/TYPE"/>
+  <Mapping cloverField="ID" trim="true" xpath="export/RETURN/ID"/>
+  <Mapping cloverField="NUMBER" trim="true" xpath="export/RETURN/NUMBER"/>
+  <Mapping cloverField="MESSAGE" trim="true" xpath="export/RETURN/MESSAGE"/>
+  <Mapping cloverField="LOG_NO" trim="true" xpath="export/RETURN/LOG_NO"/>
+  <Mapping cloverField="LOG_MSG_NO" trim="true" xpath="export/RETURN/LOG_MSG_NO"/>
+  <Mapping cloverField="MESSAGE_V1" trim="true" xpath="export/RETURN/MESSAGE_V1"/>
+  <Mapping cloverField="MESSAGE_V2" trim="true" xpath="export/RETURN/MESSAGE_V2"/>
+  <Mapping cloverField="MESSAGE_V3" trim="true" xpath="export/RETURN/MESSAGE_V3"/>
+  <Mapping cloverField="MESSAGE_V4" trim="true" xpath="export/RETURN/MESSAGE_V4"/>
+  <Mapping cloverField="PARAMETER" trim="true" xpath="export/RETURN/PARAMETER"/>
+  <Mapping cloverField="ROW" trim="true" xpath="export/RETURN/ROW"/>
+  <Mapping cloverField="FIELD" trim="true" xpath="export/RETURN/FIELD"/>
+  <Mapping cloverField="SYSTEM" trim="true" xpath="export/RETURN/SYSTEM"/>
+  <Context generatedKey="__parent_id" outPort="2" parentKey="__id" sequenceField="__id" xpath="tables/TAB_STATUSINFO/row">
+    <Mapping cloverField="CONTRACT" trim="true" xpath="CONTRACT"/>
+    <Mapping cloverField="LINEITEM" trim="true" xpath="LINEITEM"/>
+    <Mapping cloverField="CONTRACTDATE" trim="true" xpath="CONTRACTDATE"/>
+    <Mapping cloverField="ITEM" trim="true" xpath="ITEM"/>
+    <Mapping cloverField="ITEMDESCRIPTION" trim="true" xpath="ITEMDESCRIPTION"/>
+    <Mapping cloverField="SERIALNUMBER" trim="true" xpath="SERIALNUMBER"/>
+    <Mapping cloverField="ACTSKU" trim="true" xpath="ACTSKU"/>
+    <Mapping cloverField="ACTRECORDER" trim="true" xpath="ACTRECORDER"/>
+    <Mapping cloverField="BIRTHDATE" trim="true" xpath="BIRTHDATE"/>
+    <Mapping cloverField="STATOPEN" trim="true" xpath="STATOPEN"/>
+    <Mapping cloverField="STATCLOSE" trim="true" xpath="STATCLOSE"/>
+    <Mapping cloverField="STATBILLINCOMP" trim="true" xpath="STATBILLINCOMP"/>
+    <Mapping cloverField="STATCANCEL" trim="true" xpath="STATCANCEL"/>
+    <Mapping cloverField="DEALERNAME" trim="true" xpath="DEALERNAME"/>
+    <Mapping cloverField="MFGID" trim="true" xpath="MFGID"/>
+    <Mapping cloverField="CAM_NO" trim="true" xpath="CAM_NO"/>
+    <Mapping cloverField="TRAKNO" trim="true" xpath="TRAKNO"/>
+    <Mapping cloverField="ITEM_CATG" trim="true" xpath="ITEM_CATG"/>
+    <Mapping cloverField="ACCT_GRP" trim="true" xpath="ACCT_GRP"/>
+    <Mapping cloverField="STBTIND" trim="true" xpath="STBTIND"/>
+    <Mapping cloverField="STARTDATE" trim="true" xpath="STARTDATE"/>
+    <Mapping cloverField="SERVSTAT" trim="true" xpath="SERVSTAT"/>
+    <Mapping cloverField="LASTDT" trim="true" xpath="LASTDT"/>
+    <Mapping cloverField="ZZTCDNAME" trim="true" xpath="ZZTCDNAME"/>
+    <Mapping cloverField="IHVFLAG" trim="true" xpath="IHVFLAG"/>
+    <Mapping cloverField="APP_ORDER" trim="true" xpath="APP_ORDER"/>
+    <Mapping cloverField="CREDITMEMO" trim="true" xpath="CREDITMEMO"/>
+    <Mapping cloverField="HMO_STATUS" trim="true" xpath="HMO_STATUS"/>
+    <Mapping cloverField="SETTLED" trim="true" xpath="SETTLED"/>
+    <Mapping cloverField="BILLTO_CUST" trim="true" xpath="BILLTO_CUST"/>
+    <Mapping cloverField="SOLDTO_CUST" trim="true" xpath="SOLDTO_CUST"/>
+    <Mapping cloverField="PAYER_CUST" trim="true" xpath="PAYER_CUST"/>
+    <Mapping cloverField="SHIPTO" trim="true" xpath="SHIPTO"/>
+    <Mapping cloverField="CCTYP" trim="true" xpath="CCTYP"/>
+    <Mapping cloverField="CC_NUM" trim="true" xpath="CC_NUM"/>
+    <Mapping cloverField="CC_EXPDATE" trim="true" xpath="CC_EXPDATE"/>
+    <Mapping cloverField="CC_NAME" trim="true" xpath="CC_NAME"/>
+    <Mapping cloverField="MRV" trim="true" xpath="MRV"/>
+    <Mapping cloverField="MUSIC_PHOTO" trim="true" xpath="MUSIC_PHOTO"/>
+    <Mapping cloverField="DOCUMENT_TYPE" trim="true" xpath="DOCUMENT_TYPE"/>
+    <Mapping cloverField="ENDDATE" trim="true" xpath="ENDDATE"/>
+    <Mapping cloverField="MSD_FLAG" trim="true" xpath="MSD_FLAG"/>
+    <Mapping cloverField="INCONSISTENCY_FLAG" trim="true" xpath="INCONSISTENCY_FLAG"/>
+    <Mapping cloverField="CDSENABLED" trim="true" xpath="CDSENABLED"/>
+    <Mapping cloverField="BOX_TYPE" trim="true" xpath="BOX_TYPE"/>
+    <Mapping cloverField="CUR_COM_STADT" trim="true" xpath="CUR_COM_STADT"/>
+    <Mapping cloverField="CUR_COM_ENDDT" trim="true" xpath="CUR_COM_ENDDT"/>
+    <Mapping cloverField="ORG_COM_STADT" trim="true" xpath="ORG_COM_STADT"/>
+    <Mapping cloverField="ORG_COM_ENDDT" trim="true" xpath="ORG_COM_ENDDT"/>
+    <Mapping cloverField="ORG_COM_PLAN" trim="true" xpath="ORG_COM_PLAN"/>
+    <Mapping cloverField="CONDITION_TYPE" trim="true" xpath="CONDITION_TYPE"/>
+    <Mapping cloverField="ORDERREASON_TEXT" trim="true" xpath="ORDERREASON_TEXT"/>
+    <Mapping cloverField="PROMOCODE" trim="true" xpath="PROMOCODE"/>
+    <Mapping cloverField="DESCRIPTION" trim="true" xpath="DESCRIPTION"/>
+    <Mapping cloverField="SHORT_DESC" trim="true" xpath="SHORT_DESC"/>
+    <Mapping cloverField="DATE_FROM" trim="true" xpath="DATE_FROM"/>
+    <Mapping cloverField="DATE_TO" trim="true" xpath="DATE_TO"/>
+    <Mapping cloverField="PROMO_USAGE" trim="true" xpath="PROMO_USAGE"/>
+    <Mapping cloverField="PROMO_START" trim="true" xpath="PROMO_START"/>
+    <Mapping cloverField="PROMO_DURATION" trim="true" xpath="PROMO_DURATION"/>
+    <Mapping cloverField="VALIDITY_CHECK" trim="true" xpath="VALIDITY_CHECK"/>
+    <Mapping cloverField="CONCESSION_FLAG" trim="true" xpath="CONCESSION_FLAG"/>
+    <Mapping cloverField="ROLLOVER_SKU" trim="true" xpath="ROLLOVER_SKU"/>
+    <Mapping cloverField="ROLLOVER_PLAN_DESC" trim="true" xpath="ROLLOVER_PLAN_DESC"/>
+    <Mapping cloverField="ROLLOVER_PLAN_DT" trim="true" xpath="ROLLOVER_PLAN_DT"/>
+    <Mapping cloverField="USUAGE_INDICATOR" trim="true" xpath="USUAGE_INDICATOR"/>
+    <Mapping cloverField="USUAGE_IND_DESC" trim="true" xpath="USUAGE_IND_DESC"/>
+    <Mapping cloverField="REA_ORG_COMMITMENT_START_DT" trim="true" xpath="REA_ORG_COMMITMENT_START_DT"/>
+    <Mapping cloverField="REA_REASON" trim="true" xpath="REA_REASON"/>
+    <Mapping cloverField="REA_REASON_DESC" trim="true" xpath="REA_REASON_DESC"/>
+    <Mapping cloverField="ROLLOVER_TYPE" trim="true" xpath="ROLLOVER_TYPE"/>
+    <Mapping cloverField="ROLLOVER_PLAN_PRICE" trim="true" xpath="ROLLOVER_PLAN_PRICE"/>
+    <Mapping cloverField="ROLLOVER_PLAN_MSD" trim="true" xpath="ROLLOVER_PLAN_MSD"/>
+    <Mapping cloverField="ROLLOVER_PLAN_END_DT" trim="true" xpath="ROLLOVER_PLAN_END_DT"/>
+    <Mapping cloverField="ROLLOVER_PLAN_DURATION" trim="true" xpath="ROLLOVER_PLAN_DURATION"/>
+    <Mapping cloverField="ROLLOVER_PLAN_TYPE" trim="true" xpath="ROLLOVER_PLAN_TYPE"/>
+    <Mapping cloverField="ROLLOVER_PLAN_PROMO" trim="true" xpath="ROLLOVER_PLAN_PROMO"/>
+    <Mapping cloverField="ROLLOVER_PLAN_PROMO_DESC" trim="true" xpath="ROLLOVER_PLAN_PROMO_DESC"/>
+    <Mapping cloverField="ROLLOVER_PLAN_PROMO_SDESC" trim="true" xpath="ROLLOVER_PLAN_PROMO_SDESC"/>
+    <Mapping cloverField="FUT_CANCEL_DATE" trim="true" xpath="FUT_CANCEL_DATE"/>
+    <Mapping cloverField="UPGRADE_ELIGIBILITY" trim="true" xpath="UPGRADE_ELIGIBILITY"/>
+    <Mapping cloverField="WNTY_ELIGIBILITY" trim="true" xpath="WNTY_ELIGIBILITY"/>
+    <Mapping cloverField="WNTY_CONTRACT" trim="true" xpath="WNTY_CONTRACT"/>
+    <Mapping cloverField="STN_WNTY_START_DT" trim="true" xpath="STN_WNTY_START_DT"/>
+    <Mapping cloverField="WNTY_START_DT" trim="true" xpath="WNTY_START_DT"/>
+    <Mapping cloverField="WNTY_END_DT" trim="true" xpath="WNTY_END_DT"/>
+    <Mapping cloverField="WNTY_CREATE_DT" trim="true" xpath="WNTY_CREATE_DT"/>
+    <Mapping cloverField="WNTY_PRICE" trim="true" xpath="WNTY_PRICE"/>
+    <Mapping cloverField="WNTY_CANCEL_DT" trim="true" xpath="WNTY_CANCEL_DT"/>
+    <Mapping cloverField="WNTY_PLAN" trim="true" xpath="WNTY_PLAN"/>
+    <Mapping cloverField="WNTY_PLAN_DESC" trim="true" xpath="WNTY_PLAN_DESC"/>
+    <Mapping cloverField="WNTY_PLAN_TYPE" trim="true" xpath="WNTY_PLAN_TYPE"/>
+    <Mapping cloverField="WNTY_STATUS" trim="true" xpath="WNTY_STATUS"/>
+    <Mapping cloverField="RMA_FEE" trim="true" xpath="RMA_FEE"/>
+  </Context>
+  <Context generatedKey="__parent_id" outPort="1" parentKey="__id" sequenceField="__id" xpath="tables/TAB_OPENITEMS/row">
+    <Mapping cloverField="CONTRACT" trim="true" xpath="CONTRACT"/>
+    <Mapping cloverField="SERNR" trim="true" xpath="SERNR"/>
+    <Mapping cloverField="OPEN_AMT" trim="true" xpath="OPEN_AMT"/>
+    <Mapping cloverField="DUNNING" trim="true" xpath="DUNNING"/>
+  </Context>
+</Context>
+]]></attr>
+<attr name="_data_format"><![CDATA[XML]]></attr>
+<attr name="__metadata"><![CDATA[true]]></attr>
+</Node>
+<Edge debugMode="true" fromNode="FOREACH_ROW_CONTRACT:0" guiBendpoints="" id="Edge5" inPort="Port 2 (in)" metadata="614a09b6-29bf-403b-8b53-ca2e3ba9627b" outPort="Port 0 (out)" toNode="EXT_XML_WRITER0:2"/>
+<Edge debugMode="true" fromNode="FOREACH_ROW_CONTRACT_OPEN_ITEM:0" guiBendpoints="" id="Edge3" inPort="Port 1 (in)" metadata="248cfaf9-62d8-4b7f-86a8-f1873b1598de" outPort="Port 0 (out)" toNode="EXT_XML_WRITER0:1"/>
+<Edge debugMode="true" fromNode="FOREACH_ROW_CONTRACT_SAP_STATUS:0" guiBendpoints="" id="Edge8" inPort="Port 3 (in)" metadata="e42e8604-a365-45be-aa4f-947d1279642d" outPort="Port 0 (out)" toNode="EXT_XML_WRITER0:3"/>
+<Edge debugMode="true" fromNode="FOREACH_ZBAPI_WCC_GET_CONTRACT_STATUS1_SERVICE_CONTRACT_SEARCH_RESPONSE:0" guiBendpoints="" id="Edge1" inPort="Port 0 (in)" metadata="ef33be05-d631-446a-8cb9-48e41bc08bf2" outPort="Port 0 (out)" toNode="EXT_XML_WRITER0:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY0:0" guiBendpoints="" id="Edge4" inPort="Port 0 (in)" metadata="134ecb73-24df-475f-b671-ed04ae567a73" outPort="Port 0 (out)" toNode="FOREACH_ROW_CONTRACT:0"/>
+<Edge debugMode="true" fromNode="SIMPLE_COPY0:1" guiBendpoints="" id="Edge7" inPort="Port 0 (in)" metadata="134ecb73-24df-475f-b671-ed04ae567a73" outPort="Port 1 (out)" toNode="FOREACH_ROW_CONTRACT_SAP_STATUS:0"/>
+<Edge debugMode="true" fromNode="XML_READER0:0" guiBendpoints="" id="Edge0" inPort="Port 0 (in)" metadata="cf4af53b-9e85-407c-9b64-9a07021c644b" outPort="Port 0 (out)" toNode="FOREACH_ZBAPI_WCC_GET_CONTRACT_STATUS1_SERVICE_CONTRACT_SEARCH_RESPONSE:0"/>
+<Edge debugMode="true" fromNode="XML_READER0:1" guiBendpoints="" id="Edge2" inPort="Port 0 (in)" metadata="3e92751c-894d-4c92-9880-42940bf0574a" outPort="Port 1 (out)" toNode="FOREACH_ROW_CONTRACT_OPEN_ITEM:0"/>
+<Edge debugMode="true" fromNode="XML_READER0:2" guiBendpoints="" id="Edge6" inPort="Port 0 (in)" metadata="134ecb73-24df-475f-b671-ed04ae567a73" outPort="Port 2 (out)" toNode="SIMPLE_COPY0:0"/>
+</Phase>
+</Graph>

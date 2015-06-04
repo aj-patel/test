@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:tracking="http://www.mulesoft.org/schema/mule/ee/tracking" xmlns:data-mapper="http://www.mulesoft.org/schema/mule/ee/data-mapper" xmlns:sap="http://www.mulesoft.org/schema/mule/sap" xmlns:scripting="http://www.mulesoft.org/schema/mule/scripting"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:sfdc="http://www.mulesoft.org/schema/mule/sfdc" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" version="EE-3.6.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/scripting http://www.mulesoft.org/schema/mule/scripting/current/mule-scripting.xsd
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/sfdc http://www.mulesoft.org/schema/mule/sfdc/current/mule-sfdc.xsd
+http://www.mulesoft.org/schema/mule/sap http://www.mulesoft.org/schema/mule/sap/current/mule-sap.xsd
+http://www.mulesoft.org/schema/mule/ee/data-mapper http://www.mulesoft.org/schema/mule/ee/data-mapper/current/mule-data-mapper.xsd
+http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/mule/ee/tracking/current/mule-tracking-ee.xsd">
+    
+    <sfdc:config name="sfConnector" username="agentstore.integration@tivo.com.qa" password="Tivo123!"
+               securityToken="yPKFqbE88SMriv1xbSAqiE4J" url="https://test.salesforce.com/services/Soap/u/32.0"
+               doc:name="Salesforce">
+    <sfdc:connection-pooling-profile initialisationPolicy="INITIALISE_ONE" exhaustedAction="WHEN_EXHAUSTED_GROW"/>
+  </sfdc:config>
+    <sap:connector name="SAP" jcoAsHost="172.16.74.70" jcoUser="bapiwlqa99" jcoPasswd="tivo123" jcoSysnr="00" jcoClient="100" jcoLang="EN" validateConnections="true" doc:name="SAP"/>
+    <data-mapper:config name="XML_To_Xml_ZBAPI_WCC_CONTRACT_CHANGE_" transformationGraphPath="xml_to_xml_zbapi_wcc_contract_change_.grf" doc:name="XML_To_Xml_ZBAPI_WCC_CONTRACT_CHANGE_"/>
+    <data-mapper:config name="Xml_ZBAPI_WCC_CONTRACT_CHANGE__To_XML" transformationGraphPath="xml_zbapi_wcc_contract_change__to_xml.grf" doc:name="Xml_ZBAPI_WCC_CONTRACT_CHANGE__To_XML"/>
+     <data-mapper:config name="Case_Update_Response" transformationGraphPath="Case_Update_Response.grf" doc:name="Case_Update_Response"/>
+    <data-mapper:config name="Xml_ZBAPI_WCC_CONTRACT_CHANGE__To_XML_1" transformationGraphPath="xml_zbapi_wcc_contract_change__to_xml_2.grf" doc:name="Xml_ZBAPI_WCC_CONTRACT_CHANGE__To_XML_1"/>
+   <data-mapper:config name="Msd_override_response_mapper" transformationGraphPath="Msd_override_response_mapper.grf" doc:name="Msd_override_response_mapper"/>
+   <data-mapper:config name="Msd_override_request_mapper" transformationGraphPath="Msd_override_request_mapper.grf" doc:name="Msd_override_request_mapper"/>
+   <data-mapper:config name="XML_To_Xml_ZBAPI_WCC_GET_CONTRACT_STATUS1__1" transformationGraphPath="xml_to_xml_zbapi_wcc_get_contract_status1__1.grf" doc:name="XML_To_Xml_ZBAPI_WCC_GET_CONTRACT_STATUS1__1"/>
+    <data-mapper:config name="Xml_ZBAPI_WCC_GET_CONTRACT_STATUS1__To_XML_1" transformationGraphPath="xml_zbapi_wcc_get_contract_status1__to_xml_1.grf" doc:name="Xml_ZBAPI_WCC_GET_CONTRACT_STATUS1__To_XML_1"/>
+    <flow name="XMonthsFreeFlow" >
+    <http:inbound-endpoint exchange-pattern="request-response" host="localhost" port="8081" doc:name="HTTP"
+                           path="createXMonthsRequest"/>
+    <byte-array-to-string-transformer doc:name="Byte Array to String"/>
+    <set-variable variableName="caseId" value="#[xpath:/ConcessionXmonthsRequest/caseId]" doc:name="Variable"/>
+    <set-variable variableName="fieldName" value="Months_Free__c" doc:name="Variable"/>
+    <set-variable variableName="fieldValue" value="#[xpath:/ConcessionXmonthsRequest/xMonths]" doc:name="Variable"/>
+        <data-mapper:transform config-ref="XML_To_Xml_ZBAPI_WCC_CONTRACT_CHANGE_" doc:name="XML To Xml&lt;ZBAPI_WCC_CONTRACT_CHANGE&gt;"/>
+        <data-mapper:transform config-ref="Xml_ZBAPI_WCC_CONTRACT_CHANGE__To_XML_1" doc:name="Xml&lt;ZBAPI_WCC_CONTRACT_CHANGE&gt; To XML"/>
+        <sap:outbound-endpoint exchange-pattern="request-response" connector-ref="SAP" type="function" functionName="ZBAPI_WCC_CONTRACT_CHANGE" xmlVersion="2" outputXml="true" responseTimeout="10000" doc:name="SAP"/>
+    <async doc:name="Async">
+      <byte-array-to-string-transformer doc:name="Byte Array to String"/>
+      <choice doc:name="Choice">
+
+        <when
+            expression="payload.substring(payload.indexOf(&quot;&lt;code&gt;&quot;)+6,payload.indexOf(&quot;&lt;/code&gt;&quot;)).equals(&quot;E&quot;)">
+          <logger level="DEBUG" doc:name="Logger"/>
+        </when>
+        <otherwise>
+          <flow-ref name="updateSalesForceCase" doc:name="Flow Reference"/>
+        </otherwise>
+      </choice>
+    </async>
+  </flow>
+  <flow name="sfdcCaseUpdate" >
+    <http:inbound-endpoint exchange-pattern="request-response" host="localhost" port="8081" path="sfdcCaseUpdate"
+                           doc:name="HTTP"/>
+     <set-variable variableName="caseId" value="#[xpath:/caseUpdateRequest/caseId]" doc:name="Variable"/>
+    <set-variable variableName="fieldName" value="#[xpath:/caseUpdateRequest/fieldName]" doc:name="Variable"/>
+    <set-variable variableName="fieldValue" value="#[xpath:/caseUpdateRequest/fieldValue]" doc:name="Variable"/>
+    <flow-ref name="updateSalesForceCase" doc:name="Flow Reference"/>
+  </flow>
+  
+   <sub-flow name="updateSalesForceCase" >
+    <scripting:transformer doc:name="Groovy">
+      <scripting:script engine="Groovy"><![CDATA[import java.util.*
+
+List<Object> object = new ArrayList<Object>()
+HashMap<String,Object> objects = new HashMap<String,Object>()
+
+
+objects.put("CaseNumber",message.getInvocationProperty('caseId'))
+objects.put(message.getInvocationProperty('fieldName'),message.getInvocationProperty('fieldValue'))
+
+HashMap<String,Object> payload = new HashMap<String,Object>()
+object.add(objects)
+payload.put("type","Case")
+payload.put("object",object)
+return payload
+
+]]></scripting:script>
+    </scripting:transformer>
+    <sfdc:upsert config-ref="sfConnector" doc:name="Salesforce" type="#[payload.type]" externalIdFieldName="CaseNumber">
+      <sfdc:objects ref="#[payload.object]"/>
+    </sfdc:upsert>
+        <data-mapper:transform config-ref="Case_Update_Response" doc:name="Case Update Response"/>
+</sub-flow>
+
+ <flow name="msd_override" >
+    <http:inbound-endpoint exchange-pattern="request-response" host="localhost" port="8081" path="msdOverride"
+                           doc:name="HTTP"/>
+    <logger message="payload is #[payload]" level="DEBUG" doc:name="Logger"/>
+    <byte-array-to-string-transformer doc:name="Byte Array to String"/>
+    <set-variable variableName="caseId" value="#[xpath:/MsdOverrideRequest/caseId]" doc:name="Variable"/>
+    <set-variable variableName="fieldName" value="Manual_Override_Amount__c" doc:name="Variable"/>
+    <set-variable variableName="fieldValue" value="121" doc:name="Variable"/>
+
+    <data-mapper:transform config-ref="Msd_override_request_mapper" doc:name="Msd_override_request_mapper"/>
+    <logger message="payload is #[payload]" level="DEBUG" doc:name="Logger"/>
+    <sap:xml-to-function xmlVersion="2" doc:name="XML to SAP Function (BAPI)"/>
+    <logger message="payload is #[payload]" level="DEBUG" doc:name="Logger"/>
+    <sap:outbound-endpoint exchange-pattern="request-response" connector-ref="SAP" type="function"
+                           functionName="ZBAPI_MSD_OVERRIDE_TOOL" xmlVersion="2" outputXml="true"
+                           responseTimeout="10000" doc:name="SAP"/>
+    <logger message="payload is #[payload]" level="DEBUG" doc:name="Logger"/>
+    <data-mapper:transform config-ref="Msd_override_response_mapper" doc:name="Msd_override_response_mapper"/>
+    <async doc:name="Async">
+      <byte-array-to-string-transformer doc:name="Byte Array to String"/>
+      <choice doc:name="Choice">
+        <when
+            expression="payload.substring(payload.indexOf(&quot;&lt;status&gt;&quot;)+8,payload.indexOf(&quot;&lt;/status&gt;&quot;)).equals(&quot;E&quot;)">
+          <logger level="DEBUG" doc:name="Logger"/>
+        </when>
+        <otherwise>
+          <flow-ref name="updateSalesForceCase" doc:name="Flow Reference"/>
+        </otherwise>
+      </choice>
+    </async>
+  </flow>
+  
+  <flow name="service_contract_search" >
+    <http:inbound-endpoint exchange-pattern="request-response" host="localhost" port="8081"
+                           path="contract/serviceContractSearch" doc:name="HTTP"/>
+    <echo-component doc:name="Echo"/>
+    <data-mapper:transform config-ref="XML_To_Xml_ZBAPI_WCC_GET_CONTRACT_STATUS1__1"
+                           doc:name="XML To Xml&lt;ZBAPI_WCC_GET_CONTRACT_STATUS1&gt;"/>
+    <sap:outbound-endpoint exchange-pattern="request-response" connector-ref="SAP" type="function"
+                           functionName="ZBAPI_WCC_GET_CONTRACT_STATUS1" xmlVersion="2" outputXml="true"
+                           responseTimeout="10000" doc:name="SAP"/>
+    <data-mapper:transform config-ref="Xml_ZBAPI_WCC_GET_CONTRACT_STATUS1__To_XML_1"
+                           doc:name="Xml&lt;ZBAPI_WCC_GET_CONTRACT_STATUS1&gt; To XML"/>
+        <catch-exception-strategy doc:name="Catch Exception Strategy"/>
+  </flow>
+</mule>

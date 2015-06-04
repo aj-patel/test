@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph __version="3.5.0" author="ltran" created="Mon Dec 22 09:37:23 PST 2014" description="XML To Xml&lt;ZBAPI_WCC_GET_CONTRACT_STATUS1&gt;" guiVersion="3.4.4.P" id="1419276783191" licenseCode="Unlicensed" licenseType="Unknown" modified="Mon Dec 22 09:37:23 PST 2014" modifiedBy="ltran" name="XML_To_Xml_ZBAPI_WCC_GET_CONTRACT_STATUS1__1" revision="1.0" showComponentDetails="false">
+<Global>
+<Metadata __index="17" __referenceCounter="0" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_OPENITEMS/row" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="1fd29549-f077-4f56-974f-f75bc2c53409" _parent_id="__parent_id" _type="Output" id="16252d37-73db-4f31-96a3-cbd5294a9072">
+<Record fieldDelimiter="," name="row" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="17" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_OPENITEMS/row/CONTRACT" containerType="SINGLE" label="CONTRACT" name="CONTRACT" type="string"/>
+<Field __index="18" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_OPENITEMS/row/SERNR" containerType="SINGLE" label="SERNR" name="SERNR" type="string"/>
+<Field __index="19" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_OPENITEMS/row/OPEN_AMT" containerType="SINGLE" label="OPEN_AMT" name="OPEN_AMT" type="string"/>
+<Field __index="20" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_OPENITEMS/row/DUNNING" containerType="SINGLE" label="DUNNING" name="DUNNING" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="21" __referenceCounter="0" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="1fd29549-f077-4f56-974f-f75bc2c53409" _parent_id="__parent_id" _type="Output" id="5bd273b5-b14b-4cbe-b302-fd46b5193f17">
+<Record fieldDelimiter="," name="row" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="21" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CONTRACT" containerType="SINGLE" label="CONTRACT" name="CONTRACT" type="string"/>
+<Field __index="22" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/LINEITEM" containerType="SINGLE" label="LINEITEM" name="LINEITEM" type="string"/>
+<Field __index="23" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CONTRACTDATE" containerType="SINGLE" label="CONTRACTDATE" name="CONTRACTDATE" type="string"/>
+<Field __index="24" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ITEM" containerType="SINGLE" label="ITEM" name="ITEM" type="string"/>
+<Field __index="25" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ITEMDESCRIPTION" containerType="SINGLE" label="ITEMDESCRIPTION" name="ITEMDESCRIPTION" type="string"/>
+<Field __index="26" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/SERIALNUMBER" containerType="SINGLE" label="SERIALNUMBER" name="SERIALNUMBER" type="string"/>
+<Field __index="27" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ACTSKU" containerType="SINGLE" label="ACTSKU" name="ACTSKU" type="string"/>
+<Field __index="28" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ACTRECORDER" containerType="SINGLE" label="ACTRECORDER" name="ACTRECORDER" type="string"/>
+<Field __index="29" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/BIRTHDATE" containerType="SINGLE" label="BIRTHDATE" name="BIRTHDATE" type="string"/>
+<Field __index="30" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STATOPEN" containerType="SINGLE" label="STATOPEN" name="STATOPEN" type="string"/>
+<Field __index="31" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STATCLOSE" containerType="SINGLE" label="STATCLOSE" name="STATCLOSE" type="string"/>
+<Field __index="32" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STATBILLINCOMP" containerType="SINGLE" label="STATBILLINCOMP" name="STATBILLINCOMP" type="string"/>
+<Field __index="33" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STATCANCEL" containerType="SINGLE" label="STATCANCEL" name="STATCANCEL" type="string"/>
+<Field __index="34" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/DEALERNAME" containerType="SINGLE" label="DEALERNAME" name="DEALERNAME" type="string"/>
+<Field __index="35" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/MFGID" containerType="SINGLE" label="MFGID" name="MFGID" type="string"/>
+<Field __index="36" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CAM_NO" containerType="SINGLE" label="CAM_NO" name="CAM_NO" type="string"/>
+<Field __index="37" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/TRAKNO" containerType="SINGLE" label="TRAKNO" name="TRAKNO" type="string"/>
+<Field __index="38" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ITEM_CATG" containerType="SINGLE" label="ITEM_CATG" name="ITEM_CATG" type="string"/>
+<Field __index="39" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ACCT_GRP" containerType="SINGLE" label="ACCT_GRP" name="ACCT_GRP" type="string"/>
+<Field __index="40" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STBTIND" containerType="SINGLE" label="STBTIND" name="STBTIND" type="string"/>
+<Field __index="41" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STARTDATE" containerType="SINGLE" label="STARTDATE" name="STARTDATE" type="string"/>
+<Field __index="42" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/SERVSTAT" containerType="SINGLE" label="SERVSTAT" name="SERVSTAT" type="string"/>
+<Field __index="43" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/LASTDT" containerType="SINGLE" label="LASTDT" name="LASTDT" type="string"/>
+<Field __index="44" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ZZTCDNAME" containerType="SINGLE" label="ZZTCDNAME" name="ZZTCDNAME" type="string"/>
+<Field __index="45" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/IHVFLAG" containerType="SINGLE" label="IHVFLAG" name="IHVFLAG" type="string"/>
+<Field __index="46" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/APP_ORDER" containerType="SINGLE" label="APP_ORDER" name="APP_ORDER" type="string"/>
+<Field __index="47" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CREDITMEMO" containerType="SINGLE" label="CREDITMEMO" name="CREDITMEMO" type="string"/>
+<Field __index="48" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/HMO_STATUS" containerType="SINGLE" label="HMO_STATUS" name="HMO_STATUS" type="string"/>
+<Field __index="49" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/SETTLED" containerType="SINGLE" label="SETTLED" name="SETTLED" type="string"/>
+<Field __index="50" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/BILLTO_CUST" containerType="SINGLE" label="BILLTO_CUST" name="BILLTO_CUST" type="string"/>
+<Field __index="51" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/SOLDTO_CUST" containerType="SINGLE" label="SOLDTO_CUST" name="SOLDTO_CUST" type="string"/>
+<Field __index="52" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/PAYER_CUST" containerType="SINGLE" label="PAYER_CUST" name="PAYER_CUST" type="string"/>
+<Field __index="53" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/SHIPTO" containerType="SINGLE" label="SHIPTO" name="SHIPTO" type="string"/>
+<Field __index="54" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CCTYP" containerType="SINGLE" label="CCTYP" name="CCTYP" type="string"/>
+<Field __index="55" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CC_NUM" containerType="SINGLE" label="CC_NUM" name="CC_NUM" type="string"/>
+<Field __index="56" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CC_EXPDATE" containerType="SINGLE" label="CC_EXPDATE" name="CC_EXPDATE" type="string"/>
+<Field __index="57" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CC_NAME" containerType="SINGLE" label="CC_NAME" name="CC_NAME" type="string"/>
+<Field __index="58" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/MRV" containerType="SINGLE" label="MRV" name="MRV" type="string"/>
+<Field __index="59" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/MUSIC_PHOTO" containerType="SINGLE" label="MUSIC_PHOTO" name="MUSIC_PHOTO" type="string"/>
+<Field __index="60" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/DOCUMENT_TYPE" containerType="SINGLE" label="DOCUMENT_TYPE" name="DOCUMENT_TYPE" type="string"/>
+<Field __index="61" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ENDDATE" containerType="SINGLE" label="ENDDATE" name="ENDDATE" type="string"/>
+<Field __index="62" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/MSD_FLAG" containerType="SINGLE" label="MSD_FLAG" name="MSD_FLAG" type="string"/>
+<Field __index="63" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/INCONSISTENCY_FLAG" containerType="SINGLE" label="INCONSISTENCY_FLAG" name="INCONSISTENCY_FLAG" type="string"/>
+<Field __index="64" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CDSENABLED" containerType="SINGLE" label="CDSENABLED" name="CDSENABLED" type="string"/>
+<Field __index="65" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/BOX_TYPE" containerType="SINGLE" label="BOX_TYPE" name="BOX_TYPE" type="string"/>
+<Field __index="66" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CUR_COM_STADT" containerType="SINGLE" label="CUR_COM_STADT" name="CUR_COM_STADT" type="string"/>
+<Field __index="67" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CUR_COM_ENDDT" containerType="SINGLE" label="CUR_COM_ENDDT" name="CUR_COM_ENDDT" type="string"/>
+<Field __index="68" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ORG_COM_STADT" containerType="SINGLE" label="ORG_COM_STADT" name="ORG_COM_STADT" type="string"/>
+<Field __index="69" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ORG_COM_ENDDT" containerType="SINGLE" label="ORG_COM_ENDDT" name="ORG_COM_ENDDT" type="string"/>
+<Field __index="70" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ORG_COM_PLAN" containerType="SINGLE" label="ORG_COM_PLAN" name="ORG_COM_PLAN" type="string"/>
+<Field __index="71" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CONDITION_TYPE" containerType="SINGLE" label="CONDITION_TYPE" name="CONDITION_TYPE" type="string"/>
+<Field __index="72" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ORDERREASON_TEXT" containerType="SINGLE" label="ORDERREASON_TEXT" name="ORDERREASON_TEXT" type="string"/>
+<Field __index="73" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/PROMOCODE" containerType="SINGLE" label="PROMOCODE" name="PROMOCODE" type="string"/>
+<Field __index="74" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/DESCRIPTION" containerType="SINGLE" label="DESCRIPTION" name="DESCRIPTION" type="string"/>
+<Field __index="75" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/SHORT_DESC" containerType="SINGLE" label="SHORT_DESC" name="SHORT_DESC" type="string"/>
+<Field __index="76" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/DATE_FROM" containerType="SINGLE" label="DATE_FROM" name="DATE_FROM" type="string"/>
+<Field __index="77" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/DATE_TO" containerType="SINGLE" label="DATE_TO" name="DATE_TO" type="string"/>
+<Field __index="78" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/PROMO_USAGE" containerType="SINGLE" label="PROMO_USAGE" name="PROMO_USAGE" type="string"/>
+<Field __index="79" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/PROMO_START" containerType="SINGLE" label="PROMO_START" name="PROMO_START" type="string"/>
+<Field __index="80" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/PROMO_DURATION" containerType="SINGLE" label="PROMO_DURATION" name="PROMO_DURATION" type="string"/>
+<Field __index="81" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/VALIDITY_CHECK" containerType="SINGLE" label="VALIDITY_CHECK" name="VALIDITY_CHECK" type="string"/>
+<Field __index="82" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/CONCESSION_FLAG" containerType="SINGLE" label="CONCESSION_FLAG" name="CONCESSION_FLAG" type="string"/>
+<Field __index="83" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_SKU" containerType="SINGLE" label="ROLLOVER_SKU" name="ROLLOVER_SKU" type="string"/>
+<Field __index="84" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_DESC" containerType="SINGLE" label="ROLLOVER_PLAN_DESC" name="ROLLOVER_PLAN_DESC" type="string"/>
+<Field __index="85" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_DT" containerType="SINGLE" label="ROLLOVER_PLAN_DT" name="ROLLOVER_PLAN_DT" type="string"/>
+<Field __index="86" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/USUAGE_INDICATOR" containerType="SINGLE" label="USUAGE_INDICATOR" name="USUAGE_INDICATOR" type="string"/>
+<Field __index="87" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/USUAGE_IND_DESC" containerType="SINGLE" label="USUAGE_IND_DESC" name="USUAGE_IND_DESC" type="string"/>
+<Field __index="88" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/REA_ORG_COMMITMENT_START_DT" containerType="SINGLE" label="REA_ORG_COMMITMENT_START_DT" name="REA_ORG_COMMITMENT_START_DT" type="string"/>
+<Field __index="89" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/REA_REASON" containerType="SINGLE" label="REA_REASON" name="REA_REASON" type="string"/>
+<Field __index="90" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/REA_REASON_DESC" containerType="SINGLE" label="REA_REASON_DESC" name="REA_REASON_DESC" type="string"/>
+<Field __index="91" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_TYPE" containerType="SINGLE" label="ROLLOVER_TYPE" name="ROLLOVER_TYPE" type="string"/>
+<Field __index="92" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_PRICE" containerType="SINGLE" label="ROLLOVER_PLAN_PRICE" name="ROLLOVER_PLAN_PRICE" type="string"/>
+<Field __index="93" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_MSD" containerType="SINGLE" label="ROLLOVER_PLAN_MSD" name="ROLLOVER_PLAN_MSD" type="string"/>
+<Field __index="94" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_END_DT" containerType="SINGLE" label="ROLLOVER_PLAN_END_DT" name="ROLLOVER_PLAN_END_DT" type="string"/>
+<Field __index="95" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_DURATION" containerType="SINGLE" label="ROLLOVER_PLAN_DURATION" name="ROLLOVER_PLAN_DURATION" type="string"/>
+<Field __index="96" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_TYPE" containerType="SINGLE" label="ROLLOVER_PLAN_TYPE" name="ROLLOVER_PLAN_TYPE" type="string"/>
+<Field __index="97" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_PROMO" containerType="SINGLE" label="ROLLOVER_PLAN_PROMO" name="ROLLOVER_PLAN_PROMO" type="string"/>
+<Field __index="98" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_PROMO_DESC" containerType="SINGLE" label="ROLLOVER_PLAN_PROMO_DESC" name="ROLLOVER_PLAN_PROMO_DESC" type="string"/>
+<Field __index="99" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/ROLLOVER_PLAN_PROMO_SDESC" containerType="SINGLE" label="ROLLOVER_PLAN_PROMO_SDESC" name="ROLLOVER_PLAN_PROMO_SDESC" type="string"/>
+<Field __index="100" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/FUT_CANCEL_DATE" containerType="SINGLE" label="FUT_CANCEL_DATE" name="FUT_CANCEL_DATE" type="string"/>
+<Field __index="101" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/UPGRADE_ELIGIBILITY" containerType="SINGLE" label="UPGRADE_ELIGIBILITY" name="UPGRADE_ELIGIBILITY" type="string"/>
+<Field __index="102" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_ELIGIBILITY" containerType="SINGLE" label="WNTY_ELIGIBILITY" name="WNTY_ELIGIBILITY" type="string"/>
+<Field __index="103" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_CONTRACT" containerType="SINGLE" label="WNTY_CONTRACT" name="WNTY_CONTRACT" type="string"/>
+<Field __index="104" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/STN_WNTY_START_DT" containerType="SINGLE" label="STN_WNTY_START_DT" name="STN_WNTY_START_DT" type="string"/>
+<Field __index="105" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_START_DT" containerType="SINGLE" label="WNTY_START_DT" name="WNTY_START_DT" type="string"/>
+<Field __index="106" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_END_DT" containerType="SINGLE" label="WNTY_END_DT" name="WNTY_END_DT" type="string"/>
+<Field __index="107" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_CREATE_DT" containerType="SINGLE" label="WNTY_CREATE_DT" name="WNTY_CREATE_DT" type="string"/>
+<Field __index="108" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_PRICE" containerType="SINGLE" label="WNTY_PRICE" name="WNTY_PRICE" type="string"/>
+<Field __index="109" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_CANCEL_DT" containerType="SINGLE" label="WNTY_CANCEL_DT" name="WNTY_CANCEL_DT" type="string"/>
+<Field __index="110" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_PLAN" containerType="SINGLE" label="WNTY_PLAN" name="WNTY_PLAN" type="string"/>
+<Field __index="111" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_PLAN_DESC" containerType="SINGLE" label="WNTY_PLAN_DESC" name="WNTY_PLAN_DESC" type="string"/>
+<Field __index="112" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_PLAN_TYPE" containerType="SINGLE" label="WNTY_PLAN_TYPE" name="WNTY_PLAN_TYPE" type="string"/>
+<Field __index="113" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/WNTY_STATUS" containerType="SINGLE" label="WNTY_STATUS" name="WNTY_STATUS" type="string"/>
+<Field __index="114" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/tables/TAB_STATUSINFO/row/RMA_FEE" containerType="SINGLE" label="RMA_FEE" name="RMA_FEE" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/serviceContractSearchRequest" _dataStructure="OBJECT" _id="__id" _type="Input" id="c3a85298-2214-406b-95bb-56921aaa20bc">
+<Record fieldDelimiter="," name="serviceContractSearchRequest" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="0" __sourcePath="{}/serviceContractSearchRequest/customerNumber" containerType="SINGLE" label="customerNumber" name="customerNumber" type="string"/>
+</Record>
+</Metadata>
+<Metadata __filteredMetadata="false" __index="0" __referenceCounter="1" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1" _dataStructure="OBJECT" _id="__id" _type="Output" id="1fd29549-f077-4f56-974f-f75bc2c53409">
+<Record fieldDelimiter="," name="ZBAPI_WCC_GET_CONTRACT_STATUS1" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="0" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/import/ZBAPI_CUSTOMER" containerType="SINGLE" label="ZBAPI_CUSTOMER" name="ZBAPI_CUSTOMER" type="string"/>
+<Field __index="1" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/import/ZBAPI_FLAG" containerType="SINGLE" label="ZBAPI_FLAG" name="ZBAPI_FLAG" type="string"/>
+<Field __index="2" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/import/ZBAPI_PAYER" containerType="SINGLE" label="ZBAPI_PAYER" name="ZBAPI_PAYER" type="string"/>
+<Field __index="3" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/TYPE" containerType="SINGLE" label="TYPE" name="TYPE" type="string"/>
+<Field __index="4" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/ID" containerType="SINGLE" label="ID" name="ID" type="string"/>
+<Field __index="5" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/NUMBER" containerType="SINGLE" label="NUMBER" name="NUMBER" type="string"/>
+<Field __index="6" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/MESSAGE" containerType="SINGLE" label="MESSAGE" name="MESSAGE" type="string"/>
+<Field __index="7" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/LOG_NO" containerType="SINGLE" label="LOG_NO" name="LOG_NO" type="string"/>
+<Field __index="8" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/LOG_MSG_NO" containerType="SINGLE" label="LOG_MSG_NO" name="LOG_MSG_NO" type="string"/>
+<Field __index="9" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/MESSAGE_V1" containerType="SINGLE" label="MESSAGE_V1" name="MESSAGE_V1" type="string"/>
+<Field __index="10" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/MESSAGE_V2" containerType="SINGLE" label="MESSAGE_V2" name="MESSAGE_V2" type="string"/>
+<Field __index="11" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/MESSAGE_V3" containerType="SINGLE" label="MESSAGE_V3" name="MESSAGE_V3" type="string"/>
+<Field __index="12" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/MESSAGE_V4" containerType="SINGLE" label="MESSAGE_V4" name="MESSAGE_V4" type="string"/>
+<Field __index="13" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/PARAMETER" containerType="SINGLE" label="PARAMETER" name="PARAMETER" type="string"/>
+<Field __index="14" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/ROW" containerType="SINGLE" label="ROW" name="ROW" type="string"/>
+<Field __index="15" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/FIELD" containerType="SINGLE" label="FIELD" name="FIELD" type="string"/>
+<Field __index="16" __sourcePath="{}/ZBAPI_WCC_GET_CONTRACT_STATUS1/export/RETURN/SYSTEM" containerType="SINGLE" label="SYSTEM" name="SYSTEM" type="string"/>
+</Record>
+</Metadata>
+<Dictionary>
+<Entry id="DictionaryEntry0" input="true" name="inputPayload" output="false" type="object"/>
+<Entry id="DictionaryEntry1" input="false" name="outputPayload" output="true" type="object"/>
+</Dictionary>
+</Global>
+<Phase number="0">
+<Node cacheInMemory="true" charset="UTF-8" enabled="enabled" fileURL="dict:outputPayload" guiName="XML WRITER" guiX="900" guiY="20" id="EXT_XML_WRITER0" type="EXT_XML_WRITER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<clover:element clover:name="ZBAPI_WCC_GET_CONTRACT_STATUS1" xmlns:clover="http://www.cloveretl.com/ns/xmlmapping" clover:inPort="0">
+  <import>
+    <clover:element clover:name="ZBAPI_CUSTOMER">$0.ZBAPI_CUSTOMER</clover:element>
+    <clover:element clover:name="ZBAPI_FLAG">$0.ZBAPI_FLAG</clover:element>
+    <clover:element clover:name="ZBAPI_PAYER">$0.ZBAPI_PAYER</clover:element>
+  </import>
+  <export>
+    <RETURN>
+      <TYPE>$0.TYPE</TYPE>
+      <ID>$0.ID</ID>
+      <NUMBER>$0.NUMBER</NUMBER>
+      <MESSAGE>$0.MESSAGE</MESSAGE>
+      <clover:element clover:name="LOG_NO">$0.LOG_NO</clover:element>
+      <clover:element clover:name="LOG_MSG_NO">$0.LOG_MSG_NO</clover:element>
+      <clover:element clover:name="MESSAGE_V1">$0.MESSAGE_V1</clover:element>
+      <clover:element clover:name="MESSAGE_V2">$0.MESSAGE_V2</clover:element>
+      <clover:element clover:name="MESSAGE_V3">$0.MESSAGE_V3</clover:element>
+      <clover:element clover:name="MESSAGE_V4">$0.MESSAGE_V4</clover:element>
+      <PARAMETER>$0.PARAMETER</PARAMETER>
+      <ROW>$0.ROW</ROW>
+      <FIELD>$0.FIELD</FIELD>
+      <SYSTEM>$0.SYSTEM</SYSTEM>
+    </RETURN>
+  </export>
+</clover:element>]]></attr>
+<attr name="_data_format"><![CDATA[XML]]></attr>
+<attr name="__metadata"><![CDATA[true]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'serviceContractSearchRequest' -&gt; 'ZBAPI_WCC_GET_CONTRACT_STATUS1'" guiX="460" guiY="20" id="FOREACH_SERVICE_CONTRACT_SEARCH_REQUEST_ZBAPI_WCC_GET_CONTRACT_STATUS1" transformClass="com.mulesoft.datamapper.transform.MelRecordTransform" type="REFORMAT">
+<attr name="melScript"><![CDATA[//MEL
+//START -> DO NOT REMOVE
+output.__id = input.__id;
+//END -> DO NOT REMOVE
+output.ZBAPI_CUSTOMER = input.customerNumber;
+output.ZBAPI_FLAG = "X";
+output.ZBAPI_PAYER = "S";]]></attr>
+</Node>
+<Node charset="UTF-8" enabled="enabled" fileURL="dict:inputPayload" guiName="XML READER" guiX="20" guiY="20" id="XML_READER0" type="XML_READER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context outPort="0" sequenceField="__id" xpath="/serviceContractSearchRequest">
+  <Mapping cloverField="customerNumber" trim="true" xpath="customerNumber"/>
+</Context>
+]]></attr>
+<attr name="_data_format"><![CDATA[XML]]></attr>
+</Node>
+<Edge debugMode="true" fromNode="FOREACH_SERVICE_CONTRACT_SEARCH_REQUEST_ZBAPI_WCC_GET_CONTRACT_STATUS1:0" guiBendpoints="" id="Edge1" inPort="Port 0 (in)" metadata="1fd29549-f077-4f56-974f-f75bc2c53409" outPort="Port 0 (out)" toNode="EXT_XML_WRITER0:0"/>
+<Edge debugMode="true" fromNode="XML_READER0:0" guiBendpoints="" id="Edge0" inPort="Port 0 (in)" metadata="c3a85298-2214-406b-95bb-56921aaa20bc" outPort="Port 0 (out)" toNode="FOREACH_SERVICE_CONTRACT_SEARCH_REQUEST_ZBAPI_WCC_GET_CONTRACT_STATUS1:0"/>
+</Phase>
+</Graph>

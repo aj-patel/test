@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph __version="3.5.0" author="ajay.patel" created="Fri Mar 20 23:02:06 PDT 2015" description="Xml&lt;ZBAPI_WCC_CONTRACT_CHANGE&gt; To XML" guiVersion="3.4.4.P" id="1426918540995" licenseCode="Unlicensed" licenseType="Unknown" modified="Fri Mar 20 23:02:06 PDT 2015" modifiedBy="ajay.patel" name="Xml_ZBAPI_WCC_CONTRACT_CHANGE__To_XML_1" revision="1.0" showComponentDetails="false">
+<Global>
+<Metadata __filteredMetadata="false" __index="0" __referenceCounter="2" __sourcePath="{}/ConcessionXmonthsResponse" _dataStructure="OBJECT" _id="__id" _type="Output" id="9b2d06bf-2632-4437-88d6-4ccf4a4b3384">
+<Record fieldDelimiter="," name="ConcessionXmonthsResponse" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="0" __sourcePath="{}/ConcessionXmonthsResponse/status" containerType="SINGLE" label="status" name="status" type="string"/>
+<Field __index="1" __schemaType="appError" __sourcePath="{}/ConcessionXmonthsResponse/error/code" containerType="SINGLE" label="code" name="code" type="string"/>
+<Field __index="2" __schemaType="appError" __sourcePath="{}/ConcessionXmonthsResponse/error/description" containerType="SINGLE" label="description" name="description" type="string"/>
+<Field __index="3" __sourcePath="{}/ConcessionXmonthsResponse/nextBillingCycle" containerType="SINGLE" label="nextBillingCycle" name="nextBillingCycle" type="string"/>
+<Field __index="4" __sourcePath="{}/ConcessionXmonthsResponse/nextBillingDate" containerType="SINGLE" label="nextBillingDate" name="nextBillingDate" type="string"/>
+<Field __index="5" __sourcePath="{}/ConcessionXmonthsResponse/promoDuration" containerType="SINGLE" label="promoDuration" name="promoDuration" type="string"/>
+<Field __index="6" __sourcePath="{}/ConcessionXmonthsResponse/promoDescription" containerType="SINGLE" label="promoDescription" name="promoDescription" type="string"/>
+<Field __index="7" __sourcePath="{}/ConcessionXmonthsResponse/planRate" containerType="SINGLE" label="planRate" name="planRate" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="8" __referenceCounter="1" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="9302ed51-1a49-4eb5-bffa-e570c1b94485" _parent_id="__parent_id" _type="Input" id="3f7521fd-2b97-4a8a-ba32-7e1bf5082ea9">
+<Record fieldDelimiter="," name="row" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="8" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/TYPE" containerType="SINGLE" label="TYPE" name="TYPE" type="string"/>
+<Field __implementationClass="java.lang.String" __index="9" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/ID" containerType="SINGLE" label="ID" name="ID" type="string"/>
+<Field __implementationClass="java.lang.String" __index="10" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/NUMBER" containerType="SINGLE" label="NUMBER" name="NUMBER" type="string"/>
+<Field __implementationClass="java.lang.String" __index="11" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/MESSAGE" containerType="SINGLE" label="MESSAGE" name="MESSAGE" type="string"/>
+<Field __implementationClass="java.lang.String" __index="12" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/LOG_NO" containerType="SINGLE" label="LOG_NO" name="LOG_NO" type="string"/>
+<Field __implementationClass="java.lang.String" __index="13" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/LOG_MSG_NO" containerType="SINGLE" label="LOG_MSG_NO" name="LOG_MSG_NO" type="string"/>
+<Field __implementationClass="java.lang.String" __index="14" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/MESSAGE_V1" containerType="SINGLE" label="MESSAGE_V1" name="MESSAGE_V1" type="string"/>
+<Field __implementationClass="java.lang.String" __index="15" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/MESSAGE_V2" containerType="SINGLE" label="MESSAGE_V2" name="MESSAGE_V2" type="string"/>
+<Field __implementationClass="java.lang.String" __index="16" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/MESSAGE_V3" containerType="SINGLE" label="MESSAGE_V3" name="MESSAGE_V3" type="string"/>
+<Field __implementationClass="java.lang.String" __index="17" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/MESSAGE_V4" containerType="SINGLE" label="MESSAGE_V4" name="MESSAGE_V4" type="string"/>
+<Field __implementationClass="java.lang.String" __index="18" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/PARAMETER" containerType="SINGLE" label="PARAMETER" name="PARAMETER" type="string"/>
+<Field __implementationClass="java.lang.String" __index="19" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/ROW" containerType="SINGLE" label="ROW" name="ROW" type="string"/>
+<Field __implementationClass="java.lang.String" __index="20" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/FIELD" containerType="SINGLE" label="FIELD" name="FIELD" type="string"/>
+<Field __implementationClass="java.lang.String" __index="21" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/tables/RETURN/row/SYSTEM" containerType="SINGLE" label="SYSTEM" name="SYSTEM" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE" _dataStructure="OBJECT" _id="__id" _type="Input" id="9302ed51-1a49-4eb5-bffa-e570c1b94485">
+<Record fieldDelimiter="," name="ZBAPI_WCC_CONTRACT_CHANGE" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="0" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/import/CONTRACT" containerType="SINGLE" label="CONTRACT" name="CONTRACT" type="string"/>
+<Field __implementationClass="java.lang.String" __index="1" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/import/LINE_ITEM" containerType="SINGLE" label="LINE_ITEM" name="LINE_ITEM" type="string"/>
+<Field __implementationClass="java.lang.String" __index="2" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/import/PROMOCODE" containerType="SINGLE" label="PROMOCODE" name="PROMOCODE" type="string"/>
+<Field __implementationClass="java.lang.String" __index="3" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/export/NEXT_BILLING_CYCLE" containerType="SINGLE" label="NEXT_BILLING_CYCLE" name="NEXT_BILLING_CYCLE" type="string"/>
+<Field __implementationClass="java.lang.String" __index="4" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/export/NEXT_BILLING_DATE" containerType="SINGLE" label="NEXT_BILLING_DATE" name="NEXT_BILLING_DATE" type="string"/>
+<Field __implementationClass="java.lang.String" __index="5" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/export/PLAN_RATE" containerType="SINGLE" label="PLAN_RATE" name="PLAN_RATE" type="string"/>
+<Field __implementationClass="java.lang.String" __index="6" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/export/PROMOCODE_DURATION" containerType="SINGLE" label="PROMOCODE_DURATION" name="PROMOCODE_DURATION" type="string"/>
+<Field __implementationClass="java.lang.String" __index="7" __sourcePath="{}/ZBAPI_WCC_CONTRACT_CHANGE/export/SHORT_DESCRIPTION" containerType="SINGLE" label="SHORT_DESCRIPTION" name="SHORT_DESCRIPTION" type="string"/>
+</Record>
+</Metadata>
+<Dictionary>
+<Entry id="DictionaryEntry0" input="true" name="inputPayload" output="false" type="object"/>
+<Entry id="DictionaryEntry1" input="false" name="outputPayload" output="true" type="object"/>
+</Dictionary>
+</Global>
+<Phase number="0">
+<Node cacheInMemory="true" charset="UTF-8" enabled="enabled" fileURL="dict:outputPayload" guiName="XML WRITER" guiX="900" guiY="20" id="EXT_XML_WRITER0" type="EXT_XML_WRITER" xmlSchemaURL="C:/Users/ajay.patel/Desktop/AllSchemas.xsd">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<ConcessionXmonthsResponse xmlns:clover="http://www.cloveretl.com/ns/xmlmapping" clover:inPort="0">
+  <status>$0.status</status>
+  <error>
+    <code>$0.code</code>
+    <description>$0.description</description>
+  </error>
+  <nextBillingCycle>$0.nextBillingCycle</nextBillingCycle>
+  <nextBillingDate>$0.nextBillingDate</nextBillingDate>
+  <promoDuration>$0.promoDuration</promoDuration>
+  <promoDescription>$0.promoDescription</promoDescription>
+  <planRate>$0.planRate</planRate>
+</ConcessionXmonthsResponse>
+<ConcessionXmonthsResponse xmlns:clover="http://www.cloveretl.com/ns/xmlmapping" clover:inPort="1">
+  <status>$1.status</status>
+  <error>
+    <code>$1.code</code>
+    <description>$1.description</description>
+  </error>
+  <nextBillingCycle>$1.nextBillingCycle</nextBillingCycle>
+  <nextBillingDate>$1.nextBillingDate</nextBillingDate>
+  <promoDuration>$1.promoDuration</promoDuration>
+  <promoDescription>$1.promoDescription</promoDescription>
+  <planRate>$1.planRate</planRate>
+</ConcessionXmonthsResponse>]]></attr>
+<attr name="_data_format"><![CDATA[XML]]></attr>
+<attr name="__rootGlobalElementName"><![CDATA[ConcessionXmonthsResponse]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'row' -&gt; 'ConcessionXmonthsResponse'" guiX="460" guiY="120" id="FOREACH_ROW_CONCESSION_XMONTHS_RESPONSE" transformClass="com.mulesoft.datamapper.transform.MelRecordTransform" type="REFORMAT">
+<attr name="melScript"><![CDATA[//MEL
+//START -> DO NOT REMOVE
+output.__id = input.__id;
+//END -> DO NOT REMOVE
+output.status = input.TYPE;]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'ZBAPI_WCC_CONTRACT_CHANGE' -&gt; 'ConcessionXmonthsResponse'" guiX="460" guiY="20" id="FOREACH_ZBAPI_WCC_CONTRACT_CHANGE_CONCESSION_XMONTHS_RESPONSE" transformClass="com.mulesoft.datamapper.transform.MelRecordTransform" type="REFORMAT">
+<attr name="melScript"><![CDATA[//MEL
+//START -> DO NOT REMOVE
+output.__id = input.__id;
+//END -> DO NOT REMOVE
+output.nextBillingCycle = input.NEXT_BILLING_CYCLE;
+output.nextBillingDate = input.NEXT_BILLING_DATE;
+output.planRate = input.PLAN_RATE;
+output.promoDuration = input.PROMOCODE_DURATION;
+output.promoDescription = input.SHORT_DESCRIPTION;]]></attr>
+</Node>
+<Node enabled="enabled" fileURL="dict:inputPayload" guiName="XML READER" guiX="20" guiY="20" id="XML_READER0" type="XML_READER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context outPort="0" sequenceField="__id" xpath="/ZBAPI_WCC_CONTRACT_CHANGE">
+  <Mapping cloverField="CONTRACT" trim="true" xpath="import/CONTRACT"/>
+  <Mapping cloverField="LINE_ITEM" trim="true" xpath="import/LINE_ITEM"/>
+  <Mapping cloverField="PROMOCODE" trim="true" xpath="import/PROMOCODE"/>
+  <Mapping cloverField="NEXT_BILLING_CYCLE" trim="true" xpath="export/NEXT_BILLING_CYCLE"/>
+  <Mapping cloverField="NEXT_BILLING_DATE" trim="true" xpath="export/NEXT_BILLING_DATE"/>
+  <Mapping cloverField="PLAN_RATE" trim="true" xpath="export/PLAN_RATE"/>
+  <Mapping cloverField="PROMOCODE_DURATION" trim="true" xpath="export/PROMOCODE_DURATION"/>
+  <Mapping cloverField="SHORT_DESCRIPTION" trim="true" xpath="export/SHORT_DESCRIPTION"/>
+  <Context generatedKey="__parent_id" outPort="1" parentKey="__id" sequenceField="__id" xpath="tables/RETURN/row">
+    <Mapping cloverField="TYPE" trim="true" xpath="TYPE"/>
+    <Mapping cloverField="ID" trim="true" xpath="ID"/>
+    <Mapping cloverField="NUMBER" trim="true" xpath="NUMBER"/>
+    <Mapping cloverField="MESSAGE" trim="true" xpath="MESSAGE"/>
+    <Mapping cloverField="LOG_NO" trim="true" xpath="LOG_NO"/>
+    <Mapping cloverField="LOG_MSG_NO" trim="true" xpath="LOG_MSG_NO"/>
+    <Mapping cloverField="MESSAGE_V1" trim="true" xpath="MESSAGE_V1"/>
+    <Mapping cloverField="MESSAGE_V2" trim="true" xpath="MESSAGE_V2"/>
+    <Mapping cloverField="MESSAGE_V3" trim="true" xpath="MESSAGE_V3"/>
+    <Mapping cloverField="MESSAGE_V4" trim="true" xpath="MESSAGE_V4"/>
+    <Mapping cloverField="PARAMETER" trim="true" xpath="PARAMETER"/>
+    <Mapping cloverField="ROW" trim="true" xpath="ROW"/>
+    <Mapping cloverField="FIELD" trim="true" xpath="FIELD"/>
+    <Mapping cloverField="SYSTEM" trim="true" xpath="SYSTEM"/>
+  </Context>
+</Context>
+]]></attr>
+<attr name="_data_format"><![CDATA[XML]]></attr>
+<attr name="__metadata"><![CDATA[true]]></attr>
+</Node>
+<Edge debugMode="true" fromNode="FOREACH_ROW_CONCESSION_XMONTHS_RESPONSE:0" guiBendpoints="" id="Edge3" inPort="Port 1 (in)" metadata="9b2d06bf-2632-4437-88d6-4ccf4a4b3384" outPort="Port 0 (out)" toNode="EXT_XML_WRITER0:1"/>
+<Edge debugMode="true" fromNode="FOREACH_ZBAPI_WCC_CONTRACT_CHANGE_CONCESSION_XMONTHS_RESPONSE:0" guiBendpoints="" id="Edge1" inPort="Port 0 (in)" metadata="9b2d06bf-2632-4437-88d6-4ccf4a4b3384" outPort="Port 0 (out)" toNode="EXT_XML_WRITER0:0"/>
+<Edge debugMode="true" fromNode="XML_READER0:0" guiBendpoints="" id="Edge0" inPort="Port 0 (in)" metadata="9302ed51-1a49-4eb5-bffa-e570c1b94485" outPort="Port 0 (out)" toNode="FOREACH_ZBAPI_WCC_CONTRACT_CHANGE_CONCESSION_XMONTHS_RESPONSE:0"/>
+<Edge debugMode="true" fromNode="XML_READER0:1" guiBendpoints="" id="Edge2" inPort="Port 0 (in)" metadata="3f7521fd-2b97-4a8a-ba32-7e1bf5082ea9" outPort="Port 1 (out)" toNode="FOREACH_ROW_CONCESSION_XMONTHS_RESPONSE:0"/>
+</Phase>
+</Graph>
